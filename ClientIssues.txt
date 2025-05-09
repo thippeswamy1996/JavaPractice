@@ -1,0 +1,8 @@
+1)MH>Re-tested the bug fixes for client issues.
+2)For new patch in the MH build follwing test cases have been executed.
+3)MH>Contract file upload-IEX test cases executed 
+4)MH>Contract file upload RTM-IEX test cases executed 3)Bug fixes re-tested
+5)RLDC'S(Implementation of GNA related changes in REMC proposed for RLDCs) Goingthrough SRS 
+6)Local host >tested the KA client issues fixes,
+7)Localhost>MP Tested bug fixes,
+8)MH_Client issue (scenario created ) 2)Re-testing.

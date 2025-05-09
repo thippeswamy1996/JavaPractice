@@ -1,0 +1,38 @@
+Here's a consolidated, sequential list of the KSEB tasks and test cases without duplicates:
+
+1. **KSEB > AMI (HES)**  
+   - Registration and update functionality tested.
+   - Smoke tested, and bugs reported.
+   - Bug report prepared.
+
+2. **KSEB > Forecasting**  
+   - Test scenarios written for requirement 6.1.
+   - Smoke tested.
+   - Demand forecast bug fixes re-tested and bug report prepared.
+   - Functional test case reviewed.
+
+3. **KSEB > Prepared Test Cases**  
+   - Performance test cases for demand.
+   - Security test cases for demand.
+   - Dashboard (6.6.5) functional test cases designed.
+   - Accuracy forecast (6.7) functional test cases designed.
+   - Switch page registration/update/delete/log functional test cases designed.
+   - Modem page registration/update/delete/log functional test cases designed.
+
+4. **KSEB > HES (AMI)**  
+   - Substation registration page tested and bug report prepared.
+   - Smoke testing completed.
+
+5. **KSEB > AMI Mapping Test Cases**  
+   - AMI Router substation mapping test cases written and reviewed.
+   - AMI Modem SIM page mapping test cases written and reviewed.
+   - AMI Router-Meter mapping page test cases written and reviewed.
+   - AMI functional test case reviewed.
+
+6. **KSEB > Energy Scheduling Tool**  
+   - FAT book test cases executed.
+
+7. **KSEB > AMI Bug Fixes**  
+   - Bug fixes re-tested, and bug report prepared.
+
+This list consolidates the tasks and test cases, organizes them sequentially, and removes any redundant entries.

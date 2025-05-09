@@ -1,0 +1,30 @@
+1)During the daily stand-up meeting, discussions and updates were shared. 
+2) knowledge transfer (KT)  given to arya regarding the concepts of Inter Intra AVC in the MH build, 
+as well as Auto Day Ahead Schedule Submission for unsubmitted contracts. 
+
+3)Bug fixes in the MH build were re-tested, 
+4)The WR (Workflow Request) for schedule monitoring was also tested. 
+5)Workflows for dynamic contract uploads in the MH build were prepared, 
+6)Bug reports were generated for issues discovered during software testing.
+
+7)To verify a reported issue by a client, a contract was uploaded in the MH_OLD link for cross-checking purposes. 
+8)re-testing the MH_Client issue in the MH build.
+
+
+
+*****************ox**********
+The following activities were performed:
+
+1. Test cases for KYC (Know Your Customer) were executed in the OX > Admin module. Test data was prepared to execute each test case.
+
+2. The test execution report was prepared for the previously executed KYC test cases in the OX > Admin module.
+
+3. A stand-up meeting was conducted.
+
+4. The README documentation was reviewed.
+
+5. Test cases for the Buyer Homepage were executed, and test data was prepared to execute the written test cases.
+
+6. Test cases for the Seller Homepage were executed, and test data was prepared to execute the written test cases.
+
+7. Test cases for seller ticket creation were executed.

@@ -1,0 +1,20 @@
+Dear [HR Manager],
+
+I am writing to provide a summary of my performance as a Software Testing Engineer, highlighting key achievements and contributions during my tenure.
+
+Throughout my time in the role, I have demonstrated proficiency in various aspects of software testing and quality assurance. One of my key responsibilities involved analyzing requirements for the HVPNL SAMAST modules, which encompassed a wide range of functionalities such as scheduling, MIS reporting, and mobile application features. Utilizing Jira, I efficiently managed tasks for all modules and meticulously prepared comprehensive test books, ensuring thorough coverage of testing scenarios.
+
+My testing expertise spans across multiple methodologies including smoke, functional, integration, performance, security, regression, API, and database testing. I have executed test cases and actively participated in UAT/SAT sessions, promptly reporting bugs and maintaining detailed documentation of results and workflow.
+
+Furthermore, I have actively engaged with customer-reported issues, testing bug fixes across various builds, collaborating with the team to address defects, and effectively managing bug documentation and resolution. I have also conducted regression testing to uphold the integrity of existing functionalities post-bug fixes.
+
+In addition to my responsibilities, I have actively contributed to change management processes, verifying and analyzing change requests, preparing and executing test cases for changes, and meticulously maintaining documentation of results. My participation in daily stand-up meetings and requirement discussions underscores my commitment to team collaboration and project alignment.
+
+Moreover, I am dedicated to continuous professional growth, as evidenced by my attainment of certifications including ISTQB Foundation level and REST Assured API Testing. These certifications reflect my commitment to enhancing skills and staying updated with industry standards.
+
+In conclusion, I believe my performance reflects a comprehensive understanding of software testing principles, proactive problem-solving skills, and a commitment to quality assurance practices, all of which have significantly contributed to the success of the projects I have been involved in.
+
+Thank you for considering my summary, and I am open to discussing any further details or feedback.
+
+Sincerely,
+[Your Name]

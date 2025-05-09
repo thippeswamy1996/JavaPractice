@@ -1,0 +1,16 @@
+1)Tables
+a)Static table.
+b)Dynamic table.
+c)Pagination  table.
+table (table).
+tbody (tbody).
+tr(Table row) /th (table header).
+td (table data).
+
+///
+1)Find total number of a row in a table.
+//
+if u have multiple table in a web page then go for id or name with tr tag.
+ we can not follow variables directly into the xpath
+
+

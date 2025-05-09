@@ -1,0 +1,40 @@
+{
+    "contracts": [
+        {
+            "contractDetails": {
+                "posName": "ERCPL",
+                "generatorName": "ANP_FRV",
+                "generatorType": "SOLAR",
+                "transcationType": "INTER",
+                "downstreamName": "DSS_NR_TEST1",
+                "buyer": "UPPCL",
+                "seller": "APIPL",
+                "trader": "TPREL",
+                "contractType": "GNA",
+                "capacity": "10",
+                "injectionType": "INJECTION",
+                "approvalType": "approvalType",
+                "sellerRegion": "sellerRegion",
+                "buyerRegion": "buyerRegion",
+                "bundleTransaction": "yes",
+                "greenTag": "YES",
+                "sellerConsent": "PENDING",
+                "applicableLosses": "POC_LOSS,STU_LOSS",
+                "otherLossesValues":"4.24,4.26"
+            },
+            "contractDateDetails": {
+                "approval": "GNA/A/11/51/1",
+                "link": "AB",
+                "flow": "AJXSZS",
+                "path": "ER-SR",
+                "fromDate": "01/04/2024",
+                "toDate": "30/06/2030"
+            },
+            "contractTimeDetails": {
+                "fromBlock": "1",
+                "toBlock": "96",
+                "capacity": "13,10,10,10,10,10,10,10,10,10,2,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,3"
+            }
+        }
+    ]
+}

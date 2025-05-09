@@ -1,0 +1,176 @@
+POSDSS_HYDRO_TEST
+/*public void ToVerifyallthemenus() 
+	{
+		HomePageMenu.click();
+		if(HomePageMenu.isDisplayed()){
+			
+		System.out.println("Home Page Menu is present");
+		}
+		else {
+			System.out.println("Home Page Menu is not  present");
+		}
+		
+		
+		PSM.click();
+		
+		if(PSM.isDisplayed()) {
+			System.out.println("Payment security machanisam menu is presnt ");
+		}
+		else 
+				
+			System.out.println("Payment security machanisam menu is not  presnt ");
+				
+			
+	}
+	
+	Configurationmenu.click();
+	if(Configurationmenu.isDisplayed()) {
+		System.out.println("Configurationmenu menu is presnt ");
+	}
+	else 
+			
+		System.out.println("Configurationmenu is not  presnt ");
+	
+	
+}
+	
+		RegistrationMenu.click();
+		if(RegistrationMenu.isDisplayed()) {
+			System.out.println("RegistrationMenu menu is presnt ");
+		}
+		else 
+				
+			System.out.println("RegistrationMenu is not  presnt ");
+		
+		
+	}
+	
+		UpdateMenu.click();
+		if(UpdateMenu.isDisplayed()) {
+			System.out.println("UpdateMenu menu is presnt ");
+		}
+		else 
+				
+			System.out.println("UpdateMenu is not  presnt ");
+		
+		
+	}
+	
+		WBESMenu.click();
+		if(WBESMenu.isDisplayed()) {
+			System.out.println("WBES  menu is presnt ");
+		}
+		else 
+				
+			System.out.println("WBES is not  presnt ");
+		
+		//GridManagementMeneu
+	}
+	
+		GridManagementMeneu.click();
+		if(GridManagementMeneu.isDisplayed()) {
+			System.out.println("GridManagement  menu is presnt ");
+		}
+		else 
+				
+			System.out.println("GridManagement is not  presnt ");
+		
+		//GridManagementMeneu
+	}
+	
+		ScheduleMenu.click();
+		if(ScheduleMenu.isDisplayed()) {
+			System.out.println("Schedule   menu is presnt ");
+		}
+		else 
+				
+			System.out.println("Schedule  is not  presnt ");
+		
+		//ScheduleMenu
+	}
+
+		FinalImplementationMenu.click();
+		if(FinalImplementationMenu.isDisplayed()) {
+			System.out.println("FinalImplementation   menu is presnt ");
+		}
+		else 
+				
+			System.out.println("FinalImplementation  is not  presnt ");
+		
+		//FinalImplementationMenu
+	}
+	
+		ScheduleMonitoringMenu.click();
+		if(ScheduleMonitoringMenu.isDisplayed()) {
+			System.out.println("ScheduleMonitoring   menu is presnt ");
+		}
+		else 
+				
+			System.out.println("ScheduleMonitoring menu  is not  presnt ");
+		
+		//ScheduleMonitoringMenu
+	}
+	
+		ConsentMenu.click();
+		if(ConsentMenu.isDisplayed()) {
+			System.out.println("Consent  menu is presnt ");
+		}
+		else 
+				
+			System.out.println("Consent menu  is not  presnt ");
+		
+		//ConsentMenu
+	}
+	
+		ReportsMenu.click();
+		if(ReportsMenu.isDisplayed()) {
+			System.out.println("Reports  menu is presnt ");
+		}
+		else 
+				
+			System.out.println("Reports menu  is not  presnt ");
+		
+		//ReportsMenu
+	}
+	
+		//CollaborationMenu
+	
+		CollaborationMenu.click();
+		if(CollaborationMenu.isDisplayed()) {
+			System.out.println("Collaboration  menu is presnt ");
+		}
+		else 
+				
+			System.out.println("Collaboration menu  is not  presnt ");
+		
+		
+	}
+
+		AboutUsMenu.click();
+		if(AboutUsMenu.isDisplayed()) {
+			System.out.println("AboutUs  menu is presnt ");
+		}
+		else 
+				
+			System.out.println("AboutUs menu  is not  presnt ");
+		
+		//AboutUMenu
+	
+	}
+	}
+	
+public void Toverifyimageswelcometextimages() 
+	{
+		String abc = WelcomeText.getText();
+		if(WelcomeText.isDisplayed()){
+			System.out.println("Welcome text is displayed as " +abc);
+		}
+		else
+		
+		
+			System.out.println("Welcoome text is not present");
+		
+	
+		}
+}
+*/

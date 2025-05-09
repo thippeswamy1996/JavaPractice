@@ -1,0 +1,36 @@
+Here is a sequential, cleaned-up list with duplicates removed:
+
+1. HVPNL > MDM > Prepared demonstration doc for the Client comment points
+2. HVPNL > MDM Notification feature tested in all the Update pages
+3. MDM > Client comment points bug fixes re-tested
+4. MDM, TO, MDP > Client comments - fixed points tested
+5. TO > Client comments - fixed points tested
+6. ABT > New requirements developed points tested
+7. MDM > Comment points demonstrated to client
+8. MDP > Comment points demonstrated to client
+9. SAT MDP > Demonstrated to the client after comment demonstration done
+10. SAT MDM > Demonstrated to the client after comment demonstration done
+11. MIS > Tested bug fixes
+12. HVPNL > Demand Forecast tool SAT/UAT Procedure demonstrated to the client
+13. HVPNL > ABT scheduling tool SAT/UAT Procedure demonstrated to the client after comment points checked
+14. HVPNL > Transmission outage SAT/UAT Procedure demonstrated to the client after comment points checked
+15. HVPNL > Website new changes tested
+16. Website > Demonstrated to the client
+17. HVPNL > MIS tool SAT/UAT Procedure demonstrated to the client after comment points checked
+18. HVPNL > Mobile app SAT/UAT Procedure demonstrated to the client after comment points checked
+19. HVPNL > MIS tool client comment points re-tested
+20. HVPNL > The Mobile App load test environment is set up
+21. HVPNL > The Mobile App load testing is done
+22. HVPNL > The Mobile App load test report has been prepared
+23. HVPNL > MDM > Software FAT demonstration to the client
+24. HVPNL > MDP > Software FAT demonstration to the client
+25. HVPNL > MIS > Software FAT demonstration to the client
+26. HVPNL > HRABT > Software FAT demonstration to the client
+27. HVPNL > HVPNL website > Software FAT demonstration to the client
+28. HVPNL > Demand forecasting > Software FAT demonstration to the client
+29. HVPNL > Settlement system > Software FAT demonstration to the client
+30. HVPNL > Mobile Application > Software FAT demonstration to the client
+31. HVPNL > MDM > Substation and feeder test updated, mapped Jira IDs, and prepared test execution report
+32. HVPNL > MDM > DCU and SIM test updated, mapped Jira IDs, and prepared test execution report
+33. HVPNL > MDM > Meter registration page test cases updated, prepared test execution result
+34. HVPNL > MDM > Substation-feeder-Meter registration page test cases updated, prepared test execution result

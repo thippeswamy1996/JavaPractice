@@ -1,0 +1,5 @@
+1. Go through the demand forecast SRS document. 
+2. Prepared a repository folder for demand forecast documentation. 
+3. Prepared high-level and low-level designs for registration 
+4)Prepared high-level and low-level designs update pages. 
+5. Designed input validations for USS registration, DISCOM registration submodule, meter registration submodule, and special events registration submodule.

@@ -1,0 +1,108 @@
+{
+    "schedule_entity_name": "REConnect",
+    "Date": "2023-06-29",
+    "revision_no": "ID",
+    "POS": [
+        {
+            "pos_name": "BANCO 1",
+            "declared_forcast": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "avc_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "contracts": [
+                {
+                    "contract_id": "CONTRACT00124",
+                    "dss_name": "BANCO 1",
+                    "energy_type": "SOLAR",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "VIVAAN SOLAR PVT LTD",
+                    "path_name": "west-west",
+                    "buyer": "MPPMCL",
+                    "stu_name": "MAKDON",
+                    "approval_num": "BANCO 1",
+                    "max_contracted_cap": "14.8",
+                    "capacity_gen": "14.8",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+                }
+            ]
+        },
+        {
+            "pos_name": "BANCO 2",
+            "declared_forcast": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "avc_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "contracts": [
+                {
+                    "contract_id": "CONTRACT00125",
+                    "dss_name": "BANCO 2",
+                    "energy_type": "SOLAR",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "BANCO CONSTRUCTION",
+                    "path_name": "west-west",
+                    "buyer": "MPPMCL",
+                    "stu_name": "MAKDON",
+                    "approval_num": "BANCO 2",
+                    "max_contracted_cap": "1",
+                    "capacity_gen": "12.48",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20"
+                },
+                {
+                    "contract_id": "CONTRACT00201",
+                    "dss_name": "BANCO 2",
+                    "energy_type": "SOLAR",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTER",
+                    "re_generator_name": "ANIL BAXI",
+                    "path_name": "west-west",
+                    "buyer": "Test Buyer",
+                    "stu_name": "MAKDON",
+                    "approval_num": "LTA12801",
+                    "max_contracted_cap": "0.2",
+                    "capacity_gen": "12.48",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+                },
+                {
+                    "contract_id": "CONTRACT00202",
+                    "dss_name": "BANCO 2",
+                    "energy_type": "SOLAR",
+                    "contract_type": "MTOA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "ANIL BAXI",
+                    "path_name": "test",
+                    "buyer": "Goa",
+                    "stu_name": "MAKDON",
+                    "approval_num": "LTA128012",
+                    "max_contracted_cap": "2",
+                    "capacity_gen": "12.48",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+                }
+            ]
+        },
+        {
+            "pos_name": "BANCO 3",
+            "declared_forcast": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "avc_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110",
+            "contracts": [
+                {
+                    "contract_id": "CONTRACT00126",
+                    "dss_name": "BANCO 3",
+                    "energy_type": "SOLAR",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "HIMGIRI ENRGY VENTURE",
+                    "path_name": "west-west",
+                    "buyer": "MPPMCL",
+                    "stu_name": "MAKDON",
+                    "approval_num": "BANCO 3",
+                    "max_contracted_cap": "15",
+                    "capacity_gen": "15",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+                }
+            ]
+        }
+    ]
+}

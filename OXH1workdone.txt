@@ -1,0 +1,30 @@
+1) Reviewed OX>requirement documentation.
+2) Reviewed smoke test case for OX.
+3) Executed test cases for admin login and KYC module.
+4) Participated in sprint stand-up meetings.
+5) Reviewed OX README documentation.
+6) Executed test cases for buyer and seller profiles.
+7) Created automation framework for seller login.
+8) Wrote test scripts for seller ticket creation.
+9) Prepared test data for bug fixes and retesting.
+10) Reviewed workflow documentation for OX.
+11) Developed test scripts for OX features.
+12) Tested registration processes in OX.
+13) Reviewed test scenarios and test cases for various OX functionalities.
+14) Conducted end-to-end testing in OX.
+15) Executed the  password update functionality test cases.
+16) Executed the sub-sector and outcomes registration  test cases..
+17) Written test cases for viewing taxonomy.
+18) Conducted exploratory testing for various OX features.
+19) Prepared test execution reports.
+20) Logged bugs in Jira.
+21) Attended  the client meetings.
+22) Reviewed and updated test cases and bug reports.
+23) Executed test cases for the communication board.
+24) Executed test cases for viewing organization profiles.
+25) Executed "Profile_Change Password" test cases.
+26) Prepared test data for "Update created ticket" test case.
+27) Prepared bug reports and updated bug IDs.
+28) Executed test cases for "View_taxonomy."
+29) Retested bug fixes and updated bug IDs in Jira.
+30)All the necessary actions to assess the software quality are taken to ensure the smooth working of the software as expected .

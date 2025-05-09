@@ -1,0 +1,70 @@
+### Test Case for Reports Modification
+
+#### Test Case: Retaining Old Data and Accommodating New Reports
+
+1. **Objective:**
+   - To verify that the Reports section is successfully modified to retain all old sets of data and can accommodate new reports for the change request.
+
+2. **Steps:**
+   a. Access the Reports section before the modification.
+   b. Ensure that existing reports and their data are visible and accessible.
+   c. Apply the modification to the Reports section.
+   d. Access the modified Reports section.
+   e. Verify that all old sets of data are retained.
+   f. Create and generate new reports for the change request.
+   g. Verify the availability and accuracy of new reports.
+
+3. **Expected Result:**
+   a. The Reports section is accessible before the modification.
+   b. Existing reports and their data are visible and accessible.
+   c. The modification is applied successfully.
+   d. The modified Reports section is accessible.
+   e. All old sets of data are retained and visible.
+   f. New reports are successfully created and generated.
+   g. New reports are available and accurate.
+
+### Test Case for Collaboration and Logs Modification
+
+#### Test Case: Accommodating New Types of Logs
+
+1. **Objective:**
+   - To verify that the Collaboration and Logs module is successfully modified to accommodate new types of logs for recording API transactions between REMC and WBES.
+
+2. **Steps:**
+   a. Access the Collaboration and Logs module before the modification.
+   b. Verify the existing types of logs and transactions recorded.
+   c. Apply the modification to the Collaboration and Logs module.
+   d. Access the modified Collaboration and Logs module.
+   e. Verify the presence of new types of logs related to API transactions between REMC and WBES.
+   f. Review the details of the new logs.
+
+3. **Expected Result:**
+   a. The Collaboration and Logs module is accessible before the modification.
+   b. Existing types of logs and transactions are visible and accessible.
+   c. The modification is applied successfully.
+   d. The modified Collaboration and Logs module is accessible.
+   e. New types of logs related to API transactions are present.
+   f. Details of the new logs are accurate and informative.
+
+### Test Case for Data Exchange with WBES API Update
+
+#### Test Case: Updating API for Sharing Schedules with WBES
+
+1. **Objective:**
+   - To verify that the existing API for sharing schedules with WBES is successfully updated with new changes requested by WBES related to GNA change requests.
+
+2. **Steps:**
+   a. Access the existing API for sharing schedules with WBES.
+   b. Identify the changes requested by WBES.
+   c. Apply the updates to the API.
+   d. Verify that the API is successfully updated.
+   e. Test the updated API by sharing schedules with WBES.
+   f. Confirm that the schedules are successfully shared without errors.
+
+3. **Expected Result:**
+   a. The existing API is accessible.
+   b. Changes requested by WBES are identified.
+   c. The updates are applied successfully to the API.
+   d. The API is successfully updated.
+   e. The updated API is tested without errors.
+   f. Schedules are shared with WBES successfully using the updated API.

@@ -1,0 +1,2 @@
+1)Verify in the Update Individual profile   form  for selected dropdown options      check box selected isshould be displayed in the
+saved details page which are selected in registration page during the registation.

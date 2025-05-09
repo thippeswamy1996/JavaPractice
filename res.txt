@@ -1,0 +1,55 @@
+THIPPESWAMY J
+BENGALURU
+javali.thippesh@gmail.com | 7892959107
+
+Objective:
+ISTQB certified software tester with 2.7 years of expertise, specializing in test analysis, test case design, execution, and defect tracking. Proficient in ensuring software quality through comprehensive testing methodologies, with a focus on test automation using Selenium and Java. Strong analytical skills 
+and a dedicated commitment to delivering high-quality, bug-free software solutions.
+Education:
+Bachelor of Engineering in Electronics and Communication Engineering (ECE)
+BITM College, Bellari
+Pre-University Course (PUC)
+Hindu P U College, Kotturu
+
+**Work Experience:**
+QA Analyst
+Reconnect Energy Solutions Limited
+- SDLC: Experienced throughout the Software Development Lifecycle.
+- Testing: Proficient in static and dynamic testing.
+- Test Design: Skilled in Test analysis and test cases designed using test case design techniques.
+- Test Management: Experienced in managing test activities.
+- Test Levels: Competent in component (Unit) testing, component Integration testing, System testing, System Integration testing, Confirmation testing, Regression testing.
+- Experience-Based Test Techniques: Proficient in fault attacks for the implementation of error guessing.
+- Jira: Proficient in analyzing, reporting, and tracking Bugs using Bug Tracking Tool (JIRA).
+- Proficient in Java Programming: Demonstrated expertise in Java, with a strong understanding of object-oriented programming, data structures, and algorithms, crucial for effective Selenium scripting.
+- In-depth Knowledge of Selenium WebDriver: Extensive hands-on experience with Selenium WebDriver for web automation, encompassing proficient navigation, element identification, and interaction with web elements using various locators.
+- Framework Development: Competent in designing and implementing automation frameworks, such as Page Object Model (POM) or Hybrid frameworks, to ensure maintainability, reusability, and scalability of automation scripts.
+- TestNG Expertise: Adept at utilizing testing frameworks like TestNG to structure and organize test cases, manage test dependencies, and generate detailed test reports for efficient test execution and analysis.
+- API Testing: Experienced in API testing using Postman.
+- Version Control and CI/CD Integration: Familiarity with version control systems (e.g., Git).
+- Mobile App Testing: Proficient in conducting mobile app testing to ensure thorough validation of functionality, performance, and compatibility across diverse Android and iOS platforms.
+
+**Skills:**
+Testing methodologies
+Java programming
+Selenium WebDriver
+TestNG
+API Testing
+Mobile App Testing
+Version Control (Git)
+CI/CD Integration
+Analytical Thinking
+Good Communication Skills
+
+Languages:
+- English
+- Kannada
+- Hindi
+
+**Certificates:**
+- ISTQB CTFL Certification - Certificate Number ITB CTFL-133194
+- API Testing with Postman from Coursera
+- Software Development Engineer in Test (SDET) from Q Spiders
+- Scrum Master Certification from Simplilearn Online
+- Rest Assured API Testing from Udemy
+

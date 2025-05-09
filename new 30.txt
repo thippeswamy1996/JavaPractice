@@ -1,0 +1,6 @@
+status = {
+        '1': 'PENDING',
+        '0': 'ACTIVE',
+        '2': 'REJECTED',
+        '3': 'SUSPENDED',
+        '4': 'DELETED'

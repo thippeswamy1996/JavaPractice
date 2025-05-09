@@ -1,0 +1,63 @@
+6.6.2 Renewable Energy Forecasts
+Real-time and day-ahead solar and wind generation forecasts shall be developed using
+machine-learning algorithms that incorporate meteorological forecasts and SCADA /SEM
+measured generation. RE Forecasting and scheduling shall be provided for better grid
+management and RE Deviation Settlement Mechanism.
+
+
+///////////////////
+### Test Cases for Renewable Energy Forecasting Module
+
+#### Test Case 101: Real-Time Solar Generation Forecast
+- **Objective:** Verify the accuracy and functionality of real-time solar generation forecasting.
+- **Preconditions:** Access to meteorological forecasts, SCADA/SEM measured generation data, and real-time solar generation forecast module.
+- **Steps:**
+  1. Obtain real-time meteorological data and SCADA/SEM measured generation data.
+  2. Execute the real-time solar generation forecasting module.
+  3. Compare the forecasted solar generation values with actual SCADA/SEM measured generation data.
+- **Expected Result:** The real-time solar generation forecasts demonstrate high accuracy (99.5% or above) as per the specified criteria.
+
+#### Test Case 102: Real-Time Wind Generation Forecast
+- **Objective:** Verify the accuracy and functionality of real-time wind generation forecasting.
+- **Preconditions:** Access to meteorological forecasts, SCADA/SEM measured generation data, and real-time wind generation forecast module.
+- **Steps:**
+  1. Obtain real-time meteorological data and SCADA/SEM measured generation data.
+  2. Execute the real-time wind generation forecasting module.
+  3. Compare the forecasted wind generation values with actual SCADA/SEM measured generation data.
+- **Expected Result:** The real-time wind generation forecasts demonstrate high accuracy (99.5% or above) as per the specified criteria.
+
+#### Test Case 103: Day-Ahead Solar Generation Forecast
+- **Objective:** Evaluate the accuracy and effectiveness of day-ahead solar generation forecasting.
+- **Preconditions:** Access to meteorological forecasts, historical data, and day-ahead solar generation forecast module.
+- **Steps:**
+  1. Obtain meteorological forecasts for the next day.
+  2. Execute the day-ahead solar generation forecasting module.
+  3. Compare the forecasted solar generation values with actual generation data from the subsequent day.
+- **Expected Result:** The day-ahead solar generation forecasts demonstrate high accuracy (less than 2% error) as per the specified criteria.
+
+#### Test Case 104: Day-Ahead Wind Generation Forecast
+- **Objective:** Evaluate the accuracy and effectiveness of day-ahead wind generation forecasting.
+- **Preconditions:** Access to meteorological forecasts, historical data, and day-ahead wind generation forecast module.
+- **Steps:**
+  1. Obtain meteorological forecasts for the next day.
+  2. Execute the day-ahead wind generation forecasting module.
+  3. Compare the forecasted wind generation values with actual generation data from the subsequent day.
+- **Expected Result:** The day-ahead wind generation forecasts demonstrate high accuracy (less than 2% error) as per the specified criteria.
+
+#### Test Case 105: Integration with SCADA/SEM for Real-Time Data
+- **Objective:** Ensure proper integration of SCADA/SEM measured generation data with the forecasting module.
+- **Preconditions:** Access to SCADA/SEM data sources and communication with SCADA/SEM team.
+- **Steps:**
+  1. Verify the connectivity and data flow between the SCADA/SEM system and the forecasting module.
+  2. Monitor real-time updates and data synchronization between SCADA/SEM and the forecasting module.
+- **Expected Result:** The forecasting module accurately utilizes SCADA/SEM measured generation data to enhance real-time and day-ahead forecasts.
+
+#### Test Case 106: Deviation Settlement Mechanism Verification
+- **Objective:** Verify the functionality of the Renewable Energy (RE) Deviation Settlement Mechanism.
+- **Preconditions:** Understanding of RE deviation settlement rules and access to deviation settlement mechanism module.
+- **Steps:**
+  1. Simulate scenarios of forecasted vs. actual RE generation deviations.
+  2. Evaluate the effectiveness of the deviation settlement mechanism in managing and resolving deviations.
+- **Expected Result:** The deviation settlement mechanism effectively handles deviations and ensures compliance with grid management requirements.
+
+These test cases ensure that the Renewable Energy forecasting module meets the functional requirements and accuracy criteria specified in the tender document, supporting efficient grid management and RE integration for KSEBL.

@@ -1,0 +1,126 @@
+General Features of Software:-
+a. The software shall have role base access.
+b. The software shall have authentication and authorization with single sign–on.
+c. The integrated operation software shall be user friendly, scalable etc. Some of the features
+of the application are as:
+i. All logs should be highlighted with a notification.
+ii. Uniformity/Standard should be maintained for all data base.
+iii. Nomenclature/ Aliases should be decided by the supplier and SLDC
+iv. Common front end for all the modules
+v. Integration of all the modules with each other
+vi. Integration of any other related third party application in the common front end.
+vii. Upgrading the modules as per extant and amended regulations of CERC/HERC.
+viii. Output of all these modules should be configured with the other modules of SAMAST.
+ix. The software shall be designed in extensible manner so that it can accommodate future
+changes and could be easily maintained.
+x. The software shall have facility to add/block/edit users having different levels of rights
+and authorizations.
+xi. The software design shall take care of system performance tuning & other
+configuration details as may be required.
+xii. The software shall prompt alerts and /or confirmation before any major changes like
+marking for deletion, updating etc.
+xiii. Software shall have usual GUI and operating aids like Tool Tips, Menu that are not
+conflicting with the end user browser settings.
+xiv. The software shall have compatibility with PC and Mobile based internet browsers such
+as Microsoft Internet Explorer, Mozilla Firefox, Google Chrome and Safari etc.
+xv. There shall be facility for import / export of data through Excel sheet / Open office
+spread sheet/csv files.
+xvi. Option for exporting reports to PDF and excel / csv formats.
+xvii. Suitable scheduling of back-up (application and database) through the
+application/automatically as per the requirement of data security.
+xviii. The developed software shall have the facility to register requirement/ modification
+ Haryana Vidyut Prasaran Nigam Limited
+ Volume II- Technical Specification
+Implementation of Scheduling, Accounting, Metering and Settlement of Transaction in
+Electricity (SAMAST) Framework in the State of Haryana
+Page 46 of 134
+and bugs reported by various users during operation.
+xix. The system developed shall have facility of help by way of FAQs and User
+Documentation to the users of the system.
+xx. The software shall have provision for sending auto-generated e-mails/SMS, as
+identified by the system administrator.
+xxi. The software shall maintain the version details and changes carried out in respective
+version. These details shall be available to all users.
+xxii. Audit: The system shall provide defined audit trail of various activities performed by
+the users as required.
+xxiii. The solution must have option of working on multiple windows simultaneously.
+xxiv. System must have proven capacity for simultaneous use of users trouble free and in
+real time.
+///
+6.2.6 Performance Testing
+Verify that the system throughput, timing and response time requirements are satisfied. Tests shall
+include verification of:
+➢ Data exchange times
+➢ Local and remote request response times
+➢ Communication latency
+➢ User Interface function response time
+//////////////////////////
+6.2.7 Security Testing
+Verify that the system meets the software at delivery security requirements and other aspects of
+secure operation and system access including:
+➢ Communication error detection capabilities
+Correct operation of system configuration, control, maintenance, and management
+procedures Safe system recovery with no erroneous data or control operation
+generation after system restarts.
+➢ Protection against unauthorized access to the system and control functions
+//////////////////////////////////////////////////////////////////////////
+6.2.8 Environmental Testing
+Verify that:-
+➢ All system functions shall operate correctly over the specified temperature range.
+➢ The accuracy of the inputs and outputs remain valid over the specified temperature
+range.
+The test schedule shall allow sufficient time for verification and/or additional unstructured testing
+by the SLDC/HVPNL's representative, who shall be able to schedule unstructured testing at any
+time, including during structured tests.
+/////////////////////////////////////////////
+6.3 Site Acceptance Test (SAT)
+The SAT will be conducted by the OWNER (Respective CO&C Divisions and End Users etc.)
+with support, as required from the vendor, after the system has been installed and commissioned.
+The system will be subjected to a subset of the functional and performance tests. The SAT will
+also include any type of testing that could not be performed in the factory. HVPNL/SLDC’s
+representative, as necessary, will employ unstructured tests to verify overall system operation
+under field conditions. Any defects or design errors discovered during the SAT shall be corrected
+by the Vendor. The SAT includes the commissioning test, the functional and performance test, and
+the cyber security audit after the installation of the delivered system.
+/////////////////////////////////
+6.3.1 Commissioning Test
+• The commissioning tests shall be conducted by the vendor and include:
+• The same visual inspection and verification as in FAT
+• Loading of the software and starting the system. At the option of the HVPNL/SLDC, all
+software shall be recompiled from the source or distribution media.
+• Interface of the AMR and MDP System to communications facilities for all data sources
+and other systems that interface with the AMR System.
+• Initialization and preliminary tuning of application software as needed.////////////////
+/////////////////////////////////////////////////////
+6.3.2 Site Functional and Performance Test
+The site functional and performance test (“site test”) shall be comprised of a subset of the
+functional and performance tests conducted in FAT. The tests to be performed shall be proposed
+by the Contractor and approved by HVPNL/SLDC. These tests shall be extended as necessary to test functions simulated during the FAT, such as communications with all field devices and all
+other systems that interface with the CDC
+///////////////////////////
+6.3.3 Site Cyber Security Audit
+The site cyber security audit shall repeat the audit performed during factory testing
+/////////////////////////////////////
+6.4 Test Approval
+The Vendor shall maintain a complete computer record of all test results with variance reporting
+and processing procedures for approval by HVPNL/SLDC. In the event that the AMR/Complete
+Software System including MDP system does not successfully pass any portion of the Acceptance
+Testing, the Vendor shall notify the HVPNL/ SLDC of the specific deficiency. The Vendor shall
+promptly correct the specified deficiency, which will then be re-tested until successful.
+////////////////////////////////////////////////////////////////////////////////////////////
+Comprehensive training programs shall be provided to enable the efficient and effective use and
+operation of the deployed system by users of the system, and to develop a self - sufficient hardware
+and software support team within HVPNL, SLDC and the registered users of HVPNL/SLDC.
+The bidder shall prepare and provide a description of the proposed training programs with course
+content, and technical level of the instruction for review and approval by the HVPNL/SLDC at the
+beginning of the deployment, and shall work with the SLDC to schedule, organize and execute the
+approved training programs.
+Training shall include, where appropriate, a combination of formal training classes, workshops, as
+well as continuous (informal) knowledge transfer from the Vendor’s technical specialists to the
+personnel of SLDC and its constituents during the deployment process and after the
+commissioning of the AMR and Complete Software system including MDP. In-person training
+sessions could be offered at Vendor’s location or at the HVPNL/SLDC own facilities or any other
+locations of choice by both parties.
+Two hard copies and one soft copy of operating manual of the meter and DCU/AMR/MDP
+containing all details shall be made available to HVPNL and SLDC each.
+

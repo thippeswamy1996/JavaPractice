@@ -1,0 +1,63 @@
+### Test Case for Storage Management Module
+
+#### Test Case: Storage Management Data Fetching and Configuration
+
+1. **Objective:**
+   - To verify that the Storage Management Module correctly fetches data from WBES and allows the configuration of hydro and battery obligation limits.
+
+2. **Steps:**
+   a. Log in to the REMC system as an authorized user.
+   b. Navigate to the Storage Management Module.
+   c. Verify that the data (Approval number, Obligation limit, From and To Timeblock, Limit Type) is successfully fetched from WBES.
+   d. Configure a new hydro obligation limit using the web form.
+   e. Configure a new battery obligation limit using the web form.
+
+3. **Expected Result:**
+   a. The user is successfully logged in.
+   b. The Storage Management Module is accessible.
+   c. Data is successfully fetched from WBES.
+   d. A new hydro obligation limit is successfully configured.
+   e. A new battery obligation limit is successfully configured.
+
+4. **Test Case: Special Case Handling for Buyer Requisition Changes**
+
+   - **Objective:**
+      - To verify that the system handles special cases where the buyer can change the requisition in WBES during obligated time blocks.
+
+   - **Steps:**
+      a. Initiate a change in the buyer requisition in WBES for obligated time blocks.
+      b. Verify that the Storage Management Module accommodates the changes.
+      c. Check if the new buyer requisition changes are reflected in the system.
+
+   - **Expected Result:**
+      a. A change is successfully initiated in the buyer requisition in WBES.
+      b. The Storage Management Module accommodates the changes.
+      c. The new buyer requisition changes are reflected in the system.
+
+5. **Test Case: Validation of Timeblock Configuration**
+
+   - **Objective:**
+      - To ensure that the system validates the configuration of hydro and battery obligation limits for the specified time blocks.
+
+   - **Steps:**
+      a. Attempt to configure an obligation limit with an invalid time block.
+      b. Verify that the system rejects the configuration and provides appropriate error messaging.
+      c. Configure an obligation limit with a valid time block.
+
+   - **Expected Result:**
+      a. The system prevents the configuration of an obligation limit with an invalid time block.
+      b. The system provides appropriate error messaging.
+      c. An obligation limit is successfully configured with a valid time block.
+
+6. **Test Case: Integration with Existing Configuration**
+
+   - **Objective:**
+      - To ensure seamless integration of the new changes with the existing configuration process.
+
+   - **Steps:**
+      a. Verify that the new changes in the Storage Management Module do not impact existing configurations.
+      b. Confirm that hydro and battery obligation limits configured using the web form align with existing configurations.
+
+   - **Expected Result:**
+      a. The new changes do not impact existing configurations.
+      b. Hydro and battery obligation limits configured using the web form align with existing configurations.

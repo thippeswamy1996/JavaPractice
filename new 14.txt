@@ -1,0 +1,7 @@
+TP-No. 1: Master Data Management
+Test Goal: To Verify 4.2.8 (i)
+1) HVPNL_MDP>Reports>substationdailylog selected substation data is not displayed .
+  Test Goal: To Verify 4.2.8 (vii)
+ i)In the Meter data Processing Application and view Block Load Profile Report. is not present 
+ ii) Load servay report respective field dropdowns are not displayed (Serail number,division,substaion dropdown list not visible 
+    

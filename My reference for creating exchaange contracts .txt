@@ -1,0 +1,7 @@
+Regi id 
+NR - 3
+SR -4
+WR - 5
+define('IEX_PX_ID','2c26830c-7954-4be8-8606-001594cc4beb');
+define('PXI_PX_ID','3c5ab931-870e-4cb7-babe-dec1643a246b');
+define('HPX_PX_ID','15c9a8a2-b708-49c9-b5dc-868d7c0e94f8');

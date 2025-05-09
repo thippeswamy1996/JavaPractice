@@ -1,0 +1,76 @@
+{
+    "schedule_entity_name": "STATKRAFT",
+    "Date": "2023-10-12",
+    "revision_no": "ID",
+    "POS": [
+        {
+            "pos_name": "RAJKOT(GUJRAT) SOLAR ENE",
+            "declared_forcast": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "avc_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "contracts": [
+                {
+                    "contract_id": "CONTRACT00082",
+                    "dss_name": "RAJKOT(GUJRAT) SOLAR ENERGY P. LTD.",
+                    "energy_type": "SOLAR",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "RAJKOT(GUJRAT) SOLAR ENERGY P. LTD.",
+                    "path_name": "west-west",
+                    "buyer": "MPPMCL",
+                    "stu_name": "BAROD",
+                    "approval_num": "RAJKOT(GUJRAT) SOLAR ENERGY P.",
+                    "max_contracted_cap": "43",
+                    "capacity_gen": "43",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+                }
+            ]
+        },
+        {
+            "pos_name": "CLEAN SOLAR POWER (DHAR)",
+            "declared_forcast": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "avc_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "contracts": [
+                {
+                    "contract_id": "CONTRACT00063",
+                    "dss_name": "CLEAN SOLAR POWER (DHAR) PVT LTD",
+                    "energy_type": "SOLAR",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "CLEAN SOLAR POWER (DHAR) PVT LTD",
+                    "path_name": "west-west",
+                    "buyer": "MPPMCL",
+                    "stu_name": "ALOT",
+                    "approval_num": "CLEAN SOLAR POWER (DHAR) PVT L",
+                    "max_contracted_cap": "30",
+                    "capacity_gen": "30",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+                }
+            ]
+        },
+        {
+            "pos_name": "ORANGE MAMATHKHEDA WIND ",
+            "declared_forcast": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109",
+            "avc_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "contracts": [
+                {
+                    "contract_id": "CONTRACT00080",
+                    "dss_name": "ORANGE MAMATHKHEDA WIND PVT LTD",
+                    "energy_type": "WIND",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "ORANGE MAMATHKHEDA WIND PVT LTD",
+                    "path_name": "west-west",
+                    "buyer": "MPPMCL",
+                    "stu_name": "DALODA",
+                    "approval_num": "ORANGE MAMATHKHEDA WIND PVT LT",
+                    "max_contracted_cap": "100.5",
+                    "capacity_gen": "100.5",
+                    "schedule_value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109"
+                }
+            ]
+        }
+    ]
+}

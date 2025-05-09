@@ -1,0 +1,80 @@
+### Test Case for Payment Security Mechanism (PSM)
+
+#### Test Case 1: Pre-Conditions for CSV File
+
+1. **Objective:**
+   - To validate the pre-conditions for the CSV file related to Payment Security Mechanism (PSM).
+
+2. **Steps:**
+   a. Attempt to upload a file in a format other than .CSV.
+   b. Upload PSM files for past days, current day, and next day with a change in revision number.
+   c. Attempt to upload PSM files for contracts other than LT A, MTOA, GNA, and T-GNA.
+   d. Upload a file with a PSM restriction limit in MW at EX-Bus seller for GNA & T-GNA contracts.
+   e. Verify that the file contains the required information horizontally in the specified standard format.
+
+3. **Expected Result:**
+   a. The system rejects files that are not in .CSV format.
+   b. PSM files for past days, current day, and next day are successfully uploaded with revision number changes.
+   c. PSM files are not applicable for STOA, IEX, PXI, RTM-IEX, and RTM-PXI contracts.
+   d. PSM restriction limit is specified in MW at EX-Bus seller for GNA & T-GNA contracts.
+   e. The uploaded file adheres to the specified standard format.
+
+#### Test Case 2: Pre-Conditions for API
+
+1. **Objective:**
+   - To validate the pre-conditions for the API related to Payment Security Mechanism (PSM).
+
+2. **Steps:**
+   a. Confirm that the API is provided by NRLDC in a standard format.
+   b. Ensure there is provision for reading PSM file date-wise in the API.
+   c. Confirm that the API requires a JSON format for standard files.
+   d. Verify the presence of a flag for identifying the revision in the API.
+   e. Ensure that PSM files can be revised for past days, current day, and next day with a change in revision number.
+   f. Confirm auto-scheduling for fetching current day and next day PSM data from the API.
+   g. Confirm that manual options are available for fetching past date (ex-post facto) PSM data.
+   h. Confirm that PSM is applicable only for GNA & T-GNA contracts, not for STOA, IEX, PXI, RTM-IEX, and RTM-PXI contracts.
+   i. Confirm that the PSM restriction limit should be in MW at EX-Bus seller for GNA & T-GNA contracts in the API.
+   j. Verify that the API contains the required information: Generator name, Buyer name, contract type, Approval number, PSM restriction limit in MW block-wise for 96 blocks.
+
+3. **Expected Result:**
+   a. The API is provided by NRLDC in the specified standard format.
+   b. The API allows reading PSM file date-wise.
+   c. The API requires a JSON format for standard files.
+   d. The API includes a flag for identifying the revision.
+   e. PSM files can be revised with a change in revision number for past days, current day, and next day.
+   f. Auto-scheduling is enabled for fetching current day and next day PSM data.
+   g. Manual options are available for fetching past date (ex-post facto) PSM data.
+   h. PSM is applicable only for GNA & T-GNA contracts.
+   i. PSM restriction limit is specified in MW at EX-Bus seller for GNA & T-GNA contracts.
+   j. The API adheres to the specified standard format.
+
+#### Test Case 3: Approval Number and Contract Capacity Consistency
+
+1. **Objective:**
+   - To ensure consistency in Approval Number and Max Contract Capacity for any particular contract in the PSM file, WBES, and REMC Database.
+
+2. **Steps:**
+   a. Verify that Approval Number and Max Contract Capacity are the same for a particular contract in the PSM file.
+   b. Check that Approval Number and Max Contract Capacity are consistent between WBES and the REMC Database.
+
+3. **Expected Result:**
+   a. Approval Number and Max Contract Capacity for a particular contract are consistent in the PSM file.
+   b. Approval Number and Max Contract Capacity for a particular contract are consistent between WBES and the REMC Database.
+
+#### Test Case 4: Unique Approval Number
+
+1. **Objective:**
+   - To ensure that Approval Numbers are unique, and no two contracts (renewable and non-renewable) have the same Approval Number.
+
+2. **Steps:**
+   a. Attempt to upload PSM files with duplicate Approval Numbers for different contracts.
+   b. Verify that no two contracts (renewable and non-renewable) have the same Approval Number.
+
+3. **Expected Result:**
+   a. The system rejects PSM files with duplicate Approval Numbers for different contracts.
+   b. No two contracts (
+   
+   
+   NOTE:PSM is applicable only for GNA & T-GNA contracts. 
+PSM will not be applicable for STOA ,
+IEX,PXl,RTM-IEX and RTM-PXI contracts.

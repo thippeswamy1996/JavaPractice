@@ -1,0 +1,8 @@
+1)Login
+2)navigate to meter Insights page.
+3)Find triagleclass (//i[@class='fa fa-exclamation-triangle']).
+4)Do click action on this button.
+5)Find element of the required alert.((//label[@class='label-container range-inline blinkrange'])[1]).
+6)find a Rapidblink ,medium blink, slowblink,No blick.
+7)Select either of the one from these (Rapidblink ,medium blink, slowblink,No blick.) <input type="range" class="alertrange" id="successblink" name"successblink" min="0" max="3" values="1">
+8)Submit.

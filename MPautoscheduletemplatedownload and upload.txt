@@ -1,0 +1,12 @@
+1)The task  was  created in Jira for API auto schedule template download and auto schedule submission.
+2)API testing has been  done for auto schedule template download and auto schedule submission.
+3)A Jira ID's created for the bugs found during testing the auto schedule template download functionality through the given API link.
+4The bug fixes for the auto schedule template download functionality were re-tested through the given API link.
+5)Work flow documentation prepared for API schedule template download and schedule submission.
+6)An automated process is implemented to submit schedule revisions (intraday/day ahead/week ahead) using a provided API link and is tested.
+7)The test data has been created  on the regression server for downloading and uploading schedule templates in mp build.
+8)Performed regression testing on internal build 126 and external build 148 for the ID, DA, 
+and WA revisions in MP build.
+9)Smoke test, component test, component integration test, system test, end-to-end testing, and API testing have been done for the auto schedule template download and auto schedule submission in the MP local and regression build.
+10)A collection was created in mp build for auto schedule  template download and auto schedule submission.
+11) Work flow documentation has been prepared for auto schedule template download and auto schedule submission in  the MP build.

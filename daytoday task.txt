@@ -1,0 +1,10 @@
+Priority1  1)Add work updates in workload management sheet.-done
+
+Priority 2 Create jira id -done
+Mh> observed 3 points.
+1. tier update page sub and add creating confusion .In the update page table if it sub , inside page it is add. (TIER-VII)
+2. For exchanges contract (browse and upload)(pxi/rtm)> loss column storing POC in rsm_contract_details . so in json only poc injection calculating.
+3. In contract creation page> for few pos all losses are not coming in contract module .ex: wapos1 not coming, POS_ONLY_INTER It is coming.
+/////
+Priority 3 Re-test mhbug fixes -done
+Priority 4 Re-test localMP local bug fixes: and add comments in jira :-done

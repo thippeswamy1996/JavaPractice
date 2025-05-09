@@ -1,0 +1,39 @@
+Project Testing Summary
+
+1.Requirements Analysis:  
+   - Reviewed requirements for each module, including AMI and HES, identifying essential test scenarios such as demand forecasting, security checks, and modem registration.
+   - Worked with stakeholders to establish clear acceptance criteria.
+
+2.Test Planning:  
+   - Developed a test plan detailing testing types (functional, smoke, acceptance, load, regression) and tools.
+   - Coordinated plans for FAT (Factory Acceptance Testing) and SAT (Site Acceptance Testing) for demonstration purposes.
+
+3.Test Case Design:  
+   - Created comprehensive test cases for all module functionalities, including critical workflows (e.g., RLDC workflows, contract creation, and scheduling).
+   - Ensured both functional and non-functional requirements were covered, including mobile app performance under load.
+
+4.Test Environment Setup: 
+   - Configured a testing environment simulating production, setting up test data and configuring tools for various test cases.
+
+5.Test Execution: 
+   - Ran smoke tests to confirm system stability, followed by functional and acceptance tests across modules, with a focus on RLDC workflows and energy scheduling.
+   - Conducted FAT and SAT, recording client feedback for alignment with requirements.
+
+6. Defect Tracking and Resolution: 
+   - Logged and prioritized defects by severity, collaborating with developers to resolve issues and retesting to confirm fixes.
+
+7.Performance Testing:  
+   - Executed load and stress tests, particularly on mobile applications, to validate system performance and scalability under peak conditions.
+
+8.Regression Testing:  
+   - Performed regression tests to verify that new changes did not disrupt existing functionalities.
+
+9.User Acceptance Testing (UAT):  
+   - Assisted stakeholders in UAT to simulate real-world scenarios, gathering feedback to address final adjustments and improvements.
+
+10.Documentation and Reporting:  
+    - Maintained thorough test documentation, including test cases, defect logs, and FAT/SAT outcomes.
+    - Delivered progress and summary reports to stakeholders, providing insights for potential enhancements.
+
+11.Continuous Learning: 
+    - Pursuing additional QA certification ISTQB CT-ATE to enhance skills and stay updated on industry best practices.

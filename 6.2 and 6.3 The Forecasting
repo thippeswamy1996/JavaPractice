@@ -1,0 +1,84 @@
+6.2 The Forecasting module shall be provided as a service or software.
+6.3 The suggested model shall be able to provide most recent and accurateand timely shortterm forecasts for five-minutes, same day, day ahead, weekly and year ahead for critical and
+accurate decision support to grid operators and participants in today’s increasingly dynamic
+energy markets.
+
+
+### Test Cases for Forecasting Module as a Service or Software
+
+#### Test Case 11: Availability as a Service or Software
+- **Objective:** Verify the forecasting module is available both as a service and as software.
+- **Preconditions:** Access to the forecasting module.
+- **Steps:**
+  1. Access the forecasting module as a service.
+  2. Download and install the forecasting software.
+  3. Verify the functionality in both modes (service and software).
+- **Expected Result:** The forecasting module is fully functional and available both as a service and as standalone software.
+
+#### Test Case 12: Short-Term Forecasts for Various Time Horizons
+- **Objective:** Ensure the model provides accurate short-term forecasts for five minutes, same day, day ahead, weekly, and year ahead.
+- **Preconditions:** Historical data for training and real-time data for testing.
+- **Steps:**
+  1. Input historical and real-time data.
+  2. Generate short-term forecasts for the following time horizons:
+     - Five minutes
+     - Same day
+     - Day ahead
+     - Weekly
+     - Year ahead
+  3. Compare the forecasted values with actual data for each time horizon.
+- **Expected Result:** The forecasts should be recent, accurate, and timely, matching closely with the actual data for each specified time horizon.
+
+#### Test Case 13: Timeliness of Forecasts
+- **Objective:** Verify that forecasts are provided in a timely manner to support decision-making.
+- **Preconditions:** Real-time data stream is available.
+- **Steps:**
+  1. Set up the system to generate forecasts.
+  2. Monitor the time taken to generate and update forecasts.
+  3. Ensure forecasts are delivered within the expected time frame for each horizon.
+- **Expected Result:** Forecasts are generated and updated in a timely manner, suitable for critical decision-making processes.
+
+#### Test Case 14: Accuracy of Five-Minute Interval Forecasts
+- **Objective:** Ensure the model provides highly accurate five-minute interval forecasts.
+- **Preconditions:** Historical data with five-minute intervals is available.
+- **Steps:**
+  1. Input historical data with five-minute intervals.
+  2. Generate forecasts for five-minute intervals.
+  3. Compare the forecasted values with actual data at five-minute intervals.
+- **Expected Result:** The forecasts at five-minute intervals should closely match the actual data, demonstrating high accuracy.
+
+#### Test Case 15: Decision Support for Grid Operators and Market Participants
+- **Objective:** Verify that the forecasting module provides critical and accurate decision support.
+- **Preconditions:** Historical data and real-time data are available.
+- **Steps:**
+  1. Input historical and real-time data into the system.
+  2. Generate forecasts for various time horizons.
+  3. Evaluate the usefulness of the forecasts for grid operators and market participants.
+- **Expected Result:** The forecasts should provide accurate and timely information that supports critical decision-making for grid operators and market participants in dynamic energy markets.
+
+#### Test Case 16: Dynamic Energy Market Adaptability
+- **Objective:** Ensure the forecasting module adapts to the increasingly dynamic energy markets.
+- **Preconditions:** Access to dynamic market data and trends.
+- **Steps:**
+  1. Input dynamic market data and trends into the system.
+  2. Generate forecasts considering the dynamic market conditions.
+  3. Verify the adaptability and accuracy of the forecasts.
+- **Expected Result:** The forecasting module should adapt to and accurately reflect the conditions of dynamic energy markets, providing reliable forecasts.
+
+#### Test Case 17: User Interface and Usability
+- **Objective:** Verify the user interface and usability of the forecasting module as both a service and software.
+- **Preconditions:** Access to the forecasting module.
+- **Steps:**
+  1. Access the user interface of the forecasting module as a service.
+  2. Access the user interface of the forecasting software.
+  3. Evaluate the usability, navigation, and overall user experience.
+- **Expected Result:** The user interface should be intuitive, easy to navigate, and provide a seamless user experience in both service and software modes.
+
+#### Test Case 18: Integration with Existing Systems
+- **Objective:** Ensure the forecasting module integrates seamlessly with existing grid and market systems.
+- **Preconditions:** Access to existing grid and market systems.
+- **Steps:**
+  1. Connect the forecasting module to existing grid and market systems.
+  2. Verify data flow and integration points.
+  3. Ensure that the forecasts are accessible and usable within the existing systems.
+- **Expected Result:** The forecasting module should integrate smoothly with existing systems, providing accurate and timely forecasts without any integration issues.

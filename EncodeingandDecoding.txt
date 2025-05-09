@@ -1,0 +1,145 @@
+Encoding and decoding JSON in PHP involves converting data structures to and from JSON format, which is a lightweight data-interchange format that's easy for humans to read and write and easy for machines to parse and generate. 
+
+In PHP, the functions `json_encode()` and `json_decode()` are used for this purpose.
+
+### JSON Encoding
+
+**Encoding** is the process of converting PHP data structures (like arrays and objects) into JSON strings.
+
+For example:
+
+```php
+$data = array(
+    "name" => "John Doe",
+    "email" => "john.doe@example.com",
+    "age" => 30,
+    "address" => array(
+        "street" => "123 Main St",
+        "city" => "Anytown",
+        "state" => "CA"
+    )
+);
+
+$json = json_encode($data);
+echo $json;
+```
+
+Output:
+```json
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "age": 30,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA"
+    }
+}
+```
+
+### JSON Decoding
+
+**Decoding** is the process of converting JSON strings into PHP data structures.
+
+For example:
+
+```php
+$json = '{"name":"John Doe","email":"john.doe@example.com","age":30,"address":{"street":"123 Main St","city":"Anytown","state":"CA"}}';
+
+$data = json_decode($json, true);  // The second parameter 'true' converts the JSON string into an associative array.
+print_r($data);
+```
+
+Output:
+```php
+Array
+(
+    [name] => John Doe
+    [email] => john.doe@example.com
+    [age] => 30
+    [address] => Array
+        (
+            [street] => 123 Main St
+            [city] => Anytown
+            [state] => CA
+        )
+
+)
+```
+
+If you omit the second parameter `true`, `json_decode()` will return an object instead of an associative array.
+
+### How the Code Uses JSON Encoding and Decoding
+
+In your provided code, JSON encoding and decoding are used in the context of making HTTP requests and processing their responses.
+
+1. **Encoding Request Data**:
+   - The code constructs a JSON payload for the POST request using string concatenation.
+   - For example, in the `iex` method:
+     ```php
+     CURLOPT_POSTFIELDS =>'{
+       "DateString":"'.$validForDate.'",
+       "PxId": "2c26830c-7954-4be8-8606-001594cc4beb"
+     }',
+     ```
+
+2. **Decoding Response Data**:
+   - After making the HTTP request, the response data (a JSON string) is decoded into a PHP associative array for further processing.
+   - For example:
+     ```php
+     $responseData = json_decode($response, true);
+     ```
+
+3. **Handling Decoded Data**:
+   - The decoded data is then used to check for errors, extract contract data, and further process or log this data.
+
+Here is a simplified example from your code demonstrating both encoding and decoding:
+
+```php
+public function iex() {
+    $validForDate = date('d/m/Y');
+    $curl = curl_init();
+    
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => 'https://external.noar.in/api/external-services-api/GetDAMREMCData?TP_CLIENT_KEY=842df60866d0c3f27a22990ba271992b4b80b55cc2249c53e6ec76af926aaa1c776347496936402d81ac7731ab6bf735',
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'POST',
+        CURLOPT_POSTFIELDS => json_encode(array(
+            "DateString" => $validForDate,
+            "PxId" => "2c26830c-7954-4be8-8606-001594cc4beb"
+        )),
+        CURLOPT_HTTPHEADER => array(
+            'Authorization: Bearer your_bearer_token_here',
+            'Content-Type: application/json'
+        ),
+    ));
+    
+    $response = curl_exec($curl);
+    curl_close($curl);
+    
+    if ($response === false) {
+        $error_message = curl_error($curl);
+        echo "Curl error: $error_message";
+        return;
+    }
+    
+    $responseData = json_decode($response, true);
+    
+    if ($responseData === null) {
+        echo "Error decoding JSON response.";
+        return;
+    }
+    
+    print_r($responseData);
+}
+```
+
+In this simplified example:
+- `json_encode()` is used to encode the PHP array into a JSON string for the POST request payload.
+- `json_decode()` is used to decode the JSON response into a PHP associative array for further processing.

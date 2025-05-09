@@ -1,0 +1,116 @@
+To create Test Case 5 for the given tariff calculation, we need to ensure the following structure is included:
+
+### Test Case 5: Validate Energy Shortfall/Excess Charges Beyond 25%
+
+#### Test Case ID: 
+TC_005
+
+#### Description:
+Verify that the energy shortfall or excess beyond 25% is charged at Rs. 1.00 per unit, while charges for the shortfall or excess in the following bands are correctly calculated:
+- Beyond 10% and up to 12%: Rs. 0.25 per unit
+- Beyond 12% and up to 15%: Rs. 0.50 per unit
+- Beyond 15% and up to 25%: Rs. 0.75 per unit
+- Beyond 25%: Rs. 1.00 per unit
+
+#### Pre-condition:
+1. The system must be configured with correct tariff slabs for different percentage ranges.
+2. An initial energy base value is established for percentage calculation.
+
+#### Test Data:
+| Scenario            | Input % (shortfall/excess) | Units | Expected Charges Calculation           | Expected Total Charges |
+|---------------------|----------------------------|-------|----------------------------------------|------------------------|
+| Scenario 1          | 26%                        | 1000  | 2% of units at Rs. 0.25 per unit <br> 3% of units at Rs. 0.50 per unit <br> 10% of units at Rs. 0.75 per unit <br> 1% of units at Rs. 1.00 per unit  | Rs. 725  |
+| Scenario 2          | 30%                        | 1500  | 2% of units at Rs. 0.25 per unit <br> 3% of units at Rs. 0.50 per unit <br> 10% of units at Rs. 0.75 per unit <br> 5% of units at Rs. 1.00 per unit  | Rs. 1275 |
+
+#### Steps:
+1. Input the percentage of shortfall or excess (e.g., 26%, 30%) in the system.
+2. Ensure the system calculates the charges for each percentage band correctly.
+3. Verify that charges for the shortfall or excess beyond 25% are calculated at Rs. 1.00 per unit.
+4. Verify the total charges are displayed correctly.
+
+#### Expected Results:
+- The system should calculate the charges for each percentage range accurately as per the rate mentioned.
+- The total charge should match the expected amount for each input scenario.
+
+#### Actual Results:
+(To be filled after execution)
+
+#### Status:
+Pass/Fail (To be filled after execution)
+///
+
+
+https://reconnectenergy.atlassian.net/browse/SA-166
+https://reconnectenergy.atlassian.net/browse/SA-167
+
+
+///
+https://reconnectenergy.atlassian.net/browse/SA-337.
+https://reconnectenergy.atlassian.net/browse/SA-334
+https://reconnectenergy.atlassian.net/browse/SA-340
+https://reconnectenergy.atlassian.net/browse/SA-338
+https://reconnectenergy.atlassian.net/browse/SA-333
+///
+
+//
+http://13.235.72.170/hes-kseb/index.php/C_monitoring/insights
+Cliking on the  meter image it is re-directing to the following page .
+http://13.235.72.170/hes-kseb/index.php/C_monitoring/diagmeterstatus
+
+///////////////////////////////////////////////
+MH_MANIKARAN
+
+
+
+
+1)KSEB>HES re-testing
+2)Going through QCA_DSM Change request SRS.
+////
+https://reconnectenergy.atlassian.net/browse/KSEB-151
+///
+
+Re-Test
+https://reconnectenergy.atlassian.net/browse/KSEB-177
+https://reconnectenergy.atlassian.net/browse/KSEB-179
+/////
+
+Need to report bugs for following things 
+The Insights  page download csv option is not working.
+////////
+Need to take KSEB task updates from raj.
+
+
+//
+QCA dsm issues
+1)Bill genration page loading is taking more time.
+2)In the RE_DSM bill genration page qca field selected 
+qca name is not coming in the qca field.
+
+
+/////
+Select * from REMC_AVAILABLE_CAPACITY_DATA where PSS_ID="POS00007";
+Select * from REMC_SCHEDULE_IMPLEMENTATION where PSS_ID="POS00007";
+Select * from REMC_DSM_PSS_METER_DATA where PSS_ID="POS00007";
+QCA------------
+select * from QCA_REGISTRATION_DETAILS Where QCA_REG_ID="QCAREG00086";
+select * from PSS_DETAILS Where PSS_REG_ID="PSSREG00111";
+select * from QCA_PSS_MASTER_MAP Where QCA_PSS_MAP_ID="QCAPSS00096";
+REMC ----------------------
+select * from REMC_PRIMARY_PSS_MASTER where REMC_PSS_ID="POS00007";
+select * from REMC_PRIMARY_QCA_MASTER Where REMC_QCA_ID="SEI00003";
+select * from REMC_QCA_PSS_MAP WHERE QCA_PSS_MAP_ID="QCAPSS00096";
+select * from REMC_QCA_PSS_MAP_BILL WHERE QCA_PSS_MAP_ID="QCAPSS00096";
+
+
+//////
+50,000kWh
+562221900
+562221900
+pls use MH_MANIKARAN
+23-09-2024 to 25-09-2024
+
+
+10MW kwh converted as 10*250:
+////////////////////////////////////////////////////////
+https://reconnectenergy.atlassian.net/browse/SA-166
+https://reconnectenergy.atlassian.net/browse/SA-167

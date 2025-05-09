@@ -1,0 +1,9 @@
+3.1. Intrastate Transactions 
+3.1.1. Solar or Wind-Solar Hybrid Generation, Under or Over Injection 
+3.1.2. Wind Generation, Under or Over Injection 
+
+3.2. Interstate Transactions 
+3.2.1. Solar or Wind-Solar Hybrid Generation, Under Injection 
+3.2.2. Wind Generation, Under Injection 
+3.2.3. Solar or Solar-Wind Hybrid Generation, Over Injection 
+3.2.4. Wind Generation, Over Injection

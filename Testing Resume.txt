@@ -1,0 +1,89 @@
+
+
+**Thippeswamy J**  
+QA Analyst  
+Bengaluru, India  
+Phone: 7892959107  
+Email: javali.thippesh@gmail.com  
+
+---
+
+**Profile**  
+ISTQB certified software tester with 2.9 years of experience specializing in test analysis, test case design, execution, and defect tracking. 
+Proficient in ensuring software quality through comprehensive testing methodologies, with a focus on test automation using Selenium and Java. 
+Strong analytical skills and a dedicated commitment to delivering high-quality, bug-free software solutions.
+
+---
+
+**Skills**  
+- **Testing Knowledge**: Proficient in both static and dynamic testing.
+- **SDLC**: Extensive experience throughout the Software Development Lifecycle.
+- **Test Design**: Skilled in test analysis and test case design using various techniques.
+- **Test Management**: Experienced in managing test activities.
+- **Test Levels**: Knowledgeable in unit, integration, system, and regression testing.
+- **Experience-Based Test Techniques**: Implementation of error guessing and other techniques.
+- **JIRA**: Proficient in bug tracking and reporting using JIRA.
+- **API Testing**: Experience with Postman for API testing.
+- **Java Programming**: Strong understanding of Java for effective Selenium scripting.
+- **Selenium WebDriver**: Hands-on experience with Selenium WebDriver for web automation.
+- **Framework Development**: Competent in designing and implementing automation frameworks.
+- **TestNG**: Expertise in utilizing TestNG for test case structuring and reporting.
+- **Version Control and CI/CD**: Familiar with Git and CI/CD pipelines.
+
+---
+
+**Work Experience**  
+
+**QA Analyst**  
+*Reconnect Energy Solutions*  
+*January 2021 – Present*  
+- Ensured software meets defined quality standards and requirements.
+- Developed and executed detailed test cases based on software requirements.
+- Conducted functional, regression, integration, and performance testing.
+- Followed the Software Testing Life Cycle (STLC) processes.
+- Worked within an agile framework and participated in daily stand-up meetings.
+- Communicated effectively with cross-functional teams and participated in requirements elicitation.
+- Maintained detailed documentation of test cases, test results, and defects.
+- Generated testing reports to communicate testing status and overall software quality.
+
+**Projects**  
+
+1. **Remc Scheduling Tool**
+   - Designed test cases to validate system functionality, data integrity, and user interfaces.
+   - Executed test cases manually and using automated tools to validate software functionality.
+   - Conducted various types of testing including functional, regression, and integration.
+   - Reported defects and collaborated with developers to ensure proper fixes.
+
+2. **Outcomes Exchanges**
+   - Led the design and development of automation frameworks for web application testing.
+   - Developed automated test scripts covering functional and non-functional requirements.
+   - Created and executed detailed test cases for APIs using Postman.
+   - Validated API responses, data formats, status codes, and headers.
+
+---
+
+**Education**  
+
+**Bachelor of Engineering in Electronics and Communication Engineering (ECE)**  
+BITM College, Bellary
+
+**PUC**  
+Hindu PU College, Kotturu
+
+---
+
+**Certifications**  
+- ISTQB Certified Tester, Foundation Level (CTFL)
+- API Testing with Postman
+- Software Development Engineer in Test (SDET)
+- Scrum Master Certification
+
+---
+
+**Languages**  
+- English  
+- Kannada  
+- Hindi
+
+---
+

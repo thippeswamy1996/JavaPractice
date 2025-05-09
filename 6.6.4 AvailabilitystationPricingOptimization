@@ -1,0 +1,26 @@
+6.6.4 Availability Assessment, Station wise Pricing and Optimization:
+The Contractor shall make an assessment of the availability of various power plants within
+the state/ outside the state, from where KSEBL may have contracts and from various other
+sources KSEBL might have contracted. Such assessment shall consider maintenance
+schedules and probabilities of forced outages. The Contractor shall also be able to highlight
+the key reasons for deviation from schedule such as technical / operational reasons that
+result in sudden demand loss, sudden generation loss, change in load profile due to change
+in weather. The inputs from LGB, Inflow forecast, storage management, present storage,
+historical analysis, spill threat etc shall also be considered in the Optimisation and
+scheduling processes.
+The Software shall be capable of considering any number of contracts for Power
+Procurement and Internal generators. Also, software shall be capable of arriving at the
+optimized cost of power to be scheduled after assessing the right mix of power sources
+available. Any replacement of low-cost power from the market shall be assessed, including
+platforms like MBED (Market based Economic Dispatch)/ Ancillary markets.
+The above demand forecasting solutions must be based upon latest approaches used in
+Power Sector and using latest state of AI/ML technologyavailable.
+KSEBL’s endeavour is to have a comprehensive model for the energy/ load management
+and its cost optimization. Optimisation aims at automated Least-Cost scalable and errorfree scheduling, aimed at day-ahead and real-time horizon.
+The suggested model shall be able to provide the following benefits to KSEBL: -
+1. Minimization of operational risk/manual intervention in power procurement/sale process.
+2. Improvement in productivity through an efficient and automated process implementation.
+3. Efficient and accurate decision making.
+The scope of work defined above, is only indicative and not limited to the above. Any
+further requirement to achieve the final objective of energy/ load management and cost
+optimization shall also form part of the scope of work.

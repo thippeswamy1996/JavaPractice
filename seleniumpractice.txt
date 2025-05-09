@@ -1,0 +1,181 @@
+Here's a breakdown of the code, line by line, explaining each keyword and its functionality with examples:
+
+---
+
+### **1. Import Statements**
+```java
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import java.time.Duration;
+import java.util.List;
+```
+- **`import org.openqa.selenium.*`:**  
+  Brings Selenium classes like `WebDriver`, `By`, and `WebElement` into the program.
+
+- **`import java.time.Duration`:**  
+  Enables specifying time intervals (e.g., `Duration.ofSeconds(10)`).
+
+- **`import java.util.List`:**  
+  Allows handling lists of `WebElement` objects.
+
+---
+
+### **2. Main Class and Method**
+```java
+public class DynamicAutomation {
+    public static void main(String[] args) {
+```
+- **`public class DynamicAutomation`:**  
+  Defines the class, which is a container for the program's code.
+
+- **`public static void main(String[] args)`:**  
+  Entry point for the Java application.
+
+---
+
+### **3. Set Up WebDriver**
+```java
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\Reconnect\\eclipse-workspace\\ksebautomationproject\\driver\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+```
+- **`System.setProperty`:**  
+  Sets the path to the `chromedriver` executable.
+
+  **Example**:  
+  Path to ChromeDriver is required to control Chrome browser.
+
+- **`WebDriver driver = new ChromeDriver();`:**  
+  Creates an instance of ChromeDriver to control the Chrome browser.
+
+  **Example**:  
+  If using Firefox, replace with `WebDriver driver = new FirefoxDriver();`.
+
+---
+
+### **4. Navigate to URL**
+```java
+driver.get("file:///C:/xampp/htdocs/Webtechnology/practice/navpractice2.html");
+driver.manage().window().maximize();
+```
+- **`driver.get`:**  
+  Opens the specified URL.  
+
+  **Example**:  
+  `"file:///C:/..."` refers to a local HTML file.
+
+- **`driver.manage().window().maximize();`:**  
+  Maximizes the browser window.
+
+---
+
+### **5. Implicit Wait**
+```java
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+```
+- **Purpose**:  
+  Sets a global wait time for finding elements. If an element is not immediately available, the WebDriver waits up to 10 seconds.
+
+  **Example**:  
+  If a button takes 5 seconds to load, this line ensures the script doesn't fail immediately.
+
+---
+
+### **6. Wait for Page Load and Get Title**
+```java
+WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+String PageTitle = driver.getTitle();
+System.out.println(PageTitle);
+```
+- **`WebDriverWait`:**  
+  Explicit wait for specific conditions.
+
+- **`driver.getTitle`:**  
+  Retrieves the title of the current page.
+
+  **Example Output**:  
+  `"My Page Title"`
+
+---
+
+### **7. Find All Links**
+```java
+List<WebElement> links = driver.findElements(By.tagName("a"));
+System.out.println("Total number of links: " + links.size());
+```
+- **`findElements(By.tagName("a"))`:**  
+  Finds all `<a>` (anchor) tags on the page.
+
+  **Example HTML**:  
+  ```html
+  <a href="page1.html">Page 1</a>
+  <a href="page2.html">Page 2</a>
+  ```
+
+  **Example Output**:  
+  `Total number of links: 2`
+
+---
+
+### **8. Iterate Over Links**
+```java
+for (WebElement link : links) {
+    String linkText = link.getText();
+}
+```
+- **Purpose**:  
+  Loops through the list of links to extract and process their text or attributes.
+
+  **Example Output**:  
+  `"Page 1"`, `"Page 2"`
+
+---
+
+### **9. Find Links in `<ol><li>`**
+```java
+List<WebElement> links1 = driver.findElements(By.cssSelector("ol li a"));
+System.out.println("Total number of links in <ol><li>: " + links1.size());
+```
+- **`By.cssSelector("ol li a")`:**  
+  Finds all `<a>` tags nested inside `<li>` within an `<ol>`.
+
+  **Example HTML**:  
+  ```html
+  <ol>
+    <li><a href="page1.html">Link 1</a></li>
+    <li><a href="page2.html">Link 2</a></li>
+  </ol>
+  ```
+
+  **Example Output**:  
+  `Total number of links in <ol><li>: 2`
+
+---
+
+### **10. Print Text of Links**
+```java
+for (WebElement link : links1) {
+    String linkText = link.getText();
+    System.out.println(linkText);
+}
+```
+- **Purpose**:  
+  Iterates through the links found in `<ol><li>` and prints their text.
+
+  **Example Output**:  
+  ```
+  Link 1
+  Link 2
+  ```
+
+---
+
+### **Summary of Functionality**
+1. The script automates a browser using Selenium.
+2. Opens a local HTML file.
+3. Finds and processes all links (`<a>` tags) on the page and specifically within `<ol><li>`.
+4. Prints the number of links and their texts to the console.

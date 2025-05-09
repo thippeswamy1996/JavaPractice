@@ -1,0 +1,38 @@
+{
+"contracts": [
+{
+"contractdetails": {
+"posName": "K&LADAKH",
+"generatorName": "GENERATOR2201",
+"generatorType": "WIND",
+"transcationType": "",
+"downstreamName": "",
+"buyer": "",
+"seller": "",
+"trader": "UPPCL",
+"contractType": "GNA",
+"capacity": "25",
+"injectionType": "WITHDRAWAL",
+"approvalType": "approvalType1",
+"sellerRegion": "sellerRegion1",
+"buyerRegion": "buyerRegion1",
+"bundleTransaction": "YES",
+"greenTag": "NO",
+"sellerConsent": "PENDING"
+},
+"contractdatedetails": {
+"approval": "WR/30092023/08102023/test/remc/HTEST14",
+"link": "ACB",
+"flow": "AJCXSZS",
+"path": "NR-CER-SR",
+"from_date": "27/08/2023",
+"to_date": "08/11/2024"
+},
+"contracttimedetails": {
+"fromBlock": "1",
+"toBlock": "96",
+"capacity": "10,10,100,10,210,10,10,10,10,10,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,8.96"
+}
+}
+]
+}

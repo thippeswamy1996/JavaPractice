@@ -1,0 +1,44 @@
+1)RE_Tested bug fixes in SR build 2)TGNA api contract creation functionality tested in sr,nr,wr build
+2)MP>Auto schedule submission specified scenarios tested.
+3)MH>Bug fixes re-tested 
+2)Given demo MP>Auto schedule submission through api link.
+4)MH>Bug fixes re-tested 
+5)"RLDC""S(Implementation of GNA related changes in REMC proposed for RLDCs) Going through SRS
+6)Local host >tested the KA client issues fixes 3)Localhost>MP Tested bug fixes 4)MP>issues rised by the client is addressed
+7)RLDC Change request feasibility study done with the team
+8)RLDC>Written test scenarios RLDC GNA,TGNA chanage request 
+9)RLDC>Written test scenarios Static Data Synchronization functionality
+10)RLDC>Written test scenarios Registration Module
+ a)Link/Path/Flow, 
+ b) Utility, 
+ c)Loss module 
+ d) Entity Registration 
+11)RLDC>Written test scenarios 
+a)GNA,TGNA contracts.
+b)Seller Consent for GNA contracts and consent status API for WBES" 
+c)Prepared Regression test cases a)Hybrid_Station b)Hybrid_QCA 
+d)Submission_Schedule_By Template 
+e)Submission_Schedule_By WEB 
+f)Validation of AvC with schedule (Yes/ No) 
+g)Only AvC If no contracts 
+h)Schedule_Generation
+i)Batery and hydro stations (Withdrawal contracts test cases)" 
+12)Writting Test senerios for 
+ a)Scheduling autorization
+ b)Fetching TGNA(STOA) Bilateral Data from NOAR: 
+13)Schedule submission in REMC 
+a)Written test end to end scenarios for GNA,GNA_RE/T-GNA,T-GNA_RE Bunddle RE 
+b)MH>Auto schedeule template download authorization functionality tested,
+14) The Bug report has been prepared
+https://reconnectenergy.atlassian.net/browse/RT-2060 
+https://reconnectenergy.atlassian.net/browse/RT-2061 
+https://reconnectenergy.atlassian.net/browse/RT-2062 
+https://reconnectenergy.atlassian.net/browse/RT-2063 
+https://reconnectenergy.atlassian.net/browse/RT-2064
+https://reconnectenergy.atlassian.net/browse/RT-2065 
+https://reconnectenergy.atlassian.net/browse/RT-2066 
+https://reconnectenergy.atlassian.net/browse/RT-2067 
+https://reconnectenergy.atlassian.net/browse/RT-2068
+https://reconnectenergy.atlassian.net/browse/RT-2069 
+15)MH_work flow documentation
+16)MH_Auto scheduele template download Prepared collections

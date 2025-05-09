@@ -1,0 +1,91 @@
+### Test Case for Changes in REMC Scheduling Application
+
+#### Test Case 1: PSM File Reading through API
+
+1. **Objective:**
+   - To validate the functionality of reading PSM files through the specified API.
+
+2. **Steps:**
+   a. Wait for the scheduler to run automatically every one hour.
+   b. Manually run the scheduler with a specified date selection.
+   c. Check the process log for details of Auto/Manual schedule, user name, file name, approval number, success, warning, error, and timestamp.
+
+3. **Expected Result:**
+   a. The scheduler runs automatically every one hour.
+   b. The scheduler can be manually triggered with a specified date selection.
+   c. The process log provides detailed information on Auto/Manual schedules, including success, warning, and error messages.
+
+#### Test Case 2: PSM File Reading through CSV File
+
+1. **Objective:**
+   - To validate the functionality of reading PSM files through CSV files.
+
+2. **Steps:**
+   a. Manually run the process for reading PSM files.
+   b. Upload a PSM file in the standard format.
+   c. Check the process log for details of Auto/Manual schedule, user name, file name, approval number, success, warning, error, and timestamp.
+
+3. **Expected Result:**
+   a. The process can be manually triggered for reading PSM files.
+   b. The system allows users to upload PSM files in the standard format.
+   c. The process log provides detailed information on Auto/Manual schedules, including success, warning, and error messages.
+
+#### Test Case 3: Logic in Reading LTA, MTOA, GNA, and GNA-RE Contracts (Case-1)
+
+1. **Objective:**
+   - To validate the logic for reading LTA, MTOA, GNA, and GNA-RE contracts when PSM File block-wise quantum is less than or equal to the max contract capacity.
+
+2. **Steps:**
+   a. Use a sample LTA contract with Approval Number L_ER_2018_04 and Max Contract Capacity of 50 MW.
+   b. Ensure that the PSM quantum provided block-wise is less than or equal to the max contract capacity.
+   c. Check the success message and approval number in the log.
+
+3. **Expected Result:**
+   a. The logic successfully uses PSM quantum block-wise to restrict schedules for the specified LTA contract.
+   b. The PSM quantum block-wise is less than or equal to the max contract capacity.
+   c. A success message is logged along with the correct approval number.
+
+#### Test Case 4: Logic in Reading LTA, MTOA, GNA, and GNA-RE Contracts (Case-2)
+
+1. **Objective:**
+   - To validate the logic for reading LTA, MTOA, GNA, and GNA-RE contracts when PSM File block-wise quantum is greater than the max contract capacity.
+
+2. **Steps:**
+   a. Use a sample MTOA contract with Approval Number M_SR_2018_05 and Max Contract Capacity of 100 MW.
+   b. Ensure that the PSM quantum provided block-wise is greater than the max contract capacity.
+   c. Check the success and warning messages in the log.
+
+3. **Expected Result:**
+   a. The logic successfully uses PSM quantum block-wise to restrict schedules for the specified MTOA contract.
+   b. The PSM quantum block-wise is greater than the max contract capacity.
+   c. Success and warning messages are logged with the correct approval number.
+
+#### Test Case 5: Schedule Submission - Existing Scheduling Process
+
+1. **Objective:**
+   - To validate the existing scheduling process for submitting schedules.
+
+2. **Steps:**
+   a. Submit schedules for all contracts that are agreed and given consent.
+   b. Verify that schedules submitted before 06:00 hrs of the Day "D" are considered valid.
+   c. Attempt to revise schedules for I-GNA and T-GNA RE up to the approved quantum.
+   d. Enter correct details for capacity in the 96-time blocks.
+
+3. **Expected Result:**
+   a. Schedules are successfully submitted for all contracts with agreed consent.
+   b. Schedules submitted before 06:00 hrs of the Day "D" are considered valid.
+   c. I-GNA and T-GNA RE schedules can be revised up to the approved quantum.
+   d. Correct details for capacity in the 96-time blocks are accepted.
+
+#### Test Case 6: Schedule Submission - Hybrid Plants
+
+1. **Objective:**
+   - To validate the schedule submission process for hybrid plants.
+
+2. **Steps:**
+   a. Punch schedules and AvC for separate hybrid stations.
+   b. Ensure that combined (Solar and wind) hybrid components do not exceed the set limit.
+
+3. **Expected Result:**
+   a. Separate hybrid stations can punch schedules and AvC up to their installed capacity.
+   b. Combined (Solar and wind) hybrid components do not exceed the set limit.

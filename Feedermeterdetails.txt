@@ -1,0 +1,17 @@
+In electrical systems, *feeders* and *meters* serve distinct purposes:
+
+1. **Feeder**:
+   - A feeder is a power line or distribution line that carries electrical energy from a substation to a load or an area where it will be distributed to various consumers or transformers.
+   - It is part of the transmission or distribution network and supplies power to different regions, facilities, or zones.
+   - Feeders do not measure consumption; they are essentially pathways for electricity to reach destinations without measuring how much is used.
+   - Example: In a distribution system, feeders distribute power to different areas or industrial complexes.
+
+2. **Meter**:
+   - A meter, commonly known as an energy or electricity meter, measures the amount of electrical energy consumed by a residence, business, or electrically powered device.
+   - It records data such as voltage, current, and power consumption to provide an accurate account of usage over time, typically used for billing purposes.
+   - Meters are located at end-user premises or specific points where consumption needs to be monitored.
+   - Example: The electricity meter in a home records the total kWh consumed, which is used to calculate the monthly electricity bill.
+
+In summary:
+- *Feeders* are part of the distribution network and carry electricity.
+- *Meters* are measuring devices that track consumption for billing and monitoring.

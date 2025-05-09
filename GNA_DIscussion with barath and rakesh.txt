@@ -1,0 +1,7 @@
+1)Need to confirm which withdrawal contract types are required after the new changes for RLDCs.,
+GNA(any manual contracts consent by default it will be yes/if API consent will be pending  ).
+2)If GNA/GNA_RE comes into the withdrawal, how should we handle the consent feature for those contracts?
+3)Clarification is required on the inclusion of loss for GNA/GNA_RE API contracts.-(poc,stu,discome).
+
+1)FOR ALL EXCHNAGES Contracts if any update in the contract overide previous contracts .
+

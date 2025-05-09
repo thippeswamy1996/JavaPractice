@@ -1,0 +1,7 @@
+1)Going through HVPNL srs document
+2)Reviewed the State Deviation Settlement Account (SDSA) module SRS Document. 
+3)Analyzed the functionality of the State Deviation Settlement Account (SDSA) module SRS Document. 
+4)Created test scenarios for the State Deviation Settlement Account (SDSA) module SRS Document.
+5)Prepared test cases for the State Deviation Settlement Account (SDSA) module SRS Document.
+6)Documented test steps for each test scenario in the SDSA module SRS Document.
+7)Defined the expected output for each test scenario in the State Deviation Settlement Account (SDSA) module SRS Document.

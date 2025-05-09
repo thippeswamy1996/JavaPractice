@@ -1,0 +1,5 @@
+6.6.2 Renewable Energy Forecasts
+Real-time and day-ahead solar and wind generation forecasts shall be developed using
+machine-learning algorithms that incorporate meteorological forecasts and SCADA /SEM
+measured generation. RE Forecasting and scheduling shall be provided for better grid
+management and RE Deviation Settlement Mechanism.

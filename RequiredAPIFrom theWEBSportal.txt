@@ -1,0 +1,62 @@
+Certainly! Here are the separate points related to API usage from the provided document:
+
+API Usage in Process Flow:
+
+1.Static Data Synchronization:
+   - API: Synchronized with WBES through an APL.
+   - Details: Includes buyer, seller, and trader details.
+   - Frequency: Once a day before fetching contracts from WBES (D-2).
+   - Manual Option: Option for fetching static data manually available in Admin Tool.
+
+2.Data Sharing with REMC:
+   - API: Post API used for sharing mandatory contract details from WBES to REMC.
+   - Contract Identification: WBES ACRONYM of RE-Plants (Seller) used as an identifier in REMC.
+
+3.Contract Sync in REMC:
+   - API: Contracts synced in REMC from WBES using POST-API.
+   - Trigger: Synced whenever there is a change in contract definition or deletion of contract.
+   - Storage: Synced contracts stored separately for the seller's consent.
+
+4.Seller's Consent:
+   - API: Seller consent (Yes/No) shared to WBES via Post API.
+   - Consent Status: Users not allowed to change the consent status once provided as "YES."
+   - Internal User Option: Option for internal users to view and modify consent status for contracts.
+
+5.Scheduling Authorization:
+   - API: RLDC users can disable a contract from sharing data with WBES using the API.
+   - Contract Deletion: Even if the schedule is submitted in REMC, deletion of the contract will be reflected.
+
+6.Fetching TGNA(STOA) Bilateral Data from NOAR:
+   - API: Fetches TGNA Bilateral data from NOAR API based on TGNA Injecting utility(STOA) ID.
+   - Frequency: Runs every 15 mins for the current day and next day.
+
+7. Schedule Submission in REMC:
+   - API: Generators submit schedules in the REMC scheduling tool.
+   - Restrictions: Blocks users from submitting Day Ahead AVC between 6 hrs to 14 hrs.
+
+8. Withdrawal Schedule Fetching:
+   - API: Withdrawal schedule for Storage Plants fetched from WBES through an existing API method.
+
+9. Buyer Requisition Fetching:
+   - API: Buyer requisition for EASS plants fetched from WBES using a new API based on the Approval Number.
+
+10. Curtailment Details Fetching:
+    - API: Curtailment details fetched from WBES using another API based on the approval number.
+
+11. Transfer of REMC Data to WBES:
+    - API: Generated and implemented schedules transferred to WBES via an existing API with required modifications.
+
+12. Inter-State Schedules from State REMC to RLDC:
+    - API: Separate API used to share inter-state Day Ahead and Intra Day schedules from state REMC to RLDC-WBES.
+
+13. Loss Module:
+    - Modification: API changes required to store PoC Loss as 1-96 blocks instead of one entry for a week.
+	Change Implementation Steps:
+• Analyze and validate the API endpoints provided by WBES for Link, Path, Flow area, Losses, and Entity
+Registration.
+• Develop integration scripts or modules within the REMC system to facilitate data synchronization with
+WBES.
+• Test the integration thoroughly to ensure data is accurately and securely synchronized between REMC and
+WDBS,
+• Deploy the changes to the production environment after successful testing and validation.
+• Monitor the synchronization process and ensure it operates smoothly in the production environment.

@@ -1,0 +1,28 @@
+SLDC_EA1
+SLDCEAEA 1
+SLDCEAEA1 2
+SLDCEAEA2 3
+SLDCEAEA3 4
+SLDCEAEA4 5
+SLDCEAEA  6
+//
+RSM_Curtailment_New
+
+///
+
+
+Curtailemnt :Intenal by template tested different test cases.
+and bug fixes re-tested.
+Pending task :
+ New curtailment 
+ by web internal and external .
+ by template external.
+ and by with requisition.
+/////
+/////
+QCA-DSM Testing id's.
+https://reconnectenergy.atlassian.net/browse/QRDB-751
+https://reconnectenergy.atlassian.net/browse/QRDB-750
+
+
+

@@ -1,0 +1,54 @@
+### Test Case for Schedule Generation and Implementation
+
+#### Test Case: Schedule Generation and Implementation
+
+1. **Objective:**
+   - To verify that the schedule generation and implementation process considers submitted schedules, Payment Security Mechanism (PSM) data, grid management restrictions, and buyer requisition from WBES.
+
+2. **Steps:**
+   a. Submit schedules by the scheduling entity.
+   b. Optionally, if any schedules are submitted by RLDC, take note of them.
+   c. Ensure PSM data is available for the relevant contracts.
+   d. Consider grid management restrictions.
+   e. Fetch buyer requisition from WBES for any particular revision.
+   f. Initiate the schedule generation process.
+
+3. **Expected Result:**
+   a. Schedules are successfully submitted by the scheduling entity.
+   b. Optionally, RLDC-submitted schedules are considered.
+   c. PSM data is available and considered for relevant contracts.
+   d. Grid management restrictions are taken into account.
+   e. Buyer requisition from WBES is successfully fetched for any particular revision.
+   f. The schedule generation process is initiated without errors.
+
+#### Test Case: Schedule Consideration Logic
+
+1. **Objective:**
+   - To verify that the schedule generation logic considers the minimum of submitted schedules, PSM data, and grid management restrictions.
+
+2. **Steps:**
+   a. Submit a schedule for a contract.
+   b. Enter PSM data for the same contract.
+   c. Set grid management restrictions for the contract.
+   d. Initiate the schedule generation process.
+
+3. **Expected Result:**
+   a. The submitted schedule for the contract is successfully stored.
+   b. PSM data for the contract is successfully entered.
+   c. Grid management restrictions for the contract are successfully set.
+   d. The schedule generation process considers the minimum of the submitted schedule, PSM data, and grid management restrictions.
+
+#### Test Case: Final Schedule Implementation
+
+1. **Objective:**
+   - To verify that the final schedule implementation process generates the consolidated schedule, taking all ex-post facto revisions into account.
+
+2. **Steps:**
+   a. Initiate the final schedule implementation process.
+   b. Ensure all ex-post facto revisions are considered.
+   c. Review the final consolidated schedule.
+
+3. **Expected Result:**
+   a. The final schedule implementation process is initiated successfully.
+   b. All ex-post facto revisions are taken into account during the consolidation process.
+   c. The final consolidated schedule is generated without errors.

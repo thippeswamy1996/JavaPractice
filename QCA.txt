@@ -1,0 +1,8 @@
+QCA-DSM 
+
+Bug-fixes re-tested and updted the bug report .
+https://reconnectenergy.atlassian.net/browse/QRDB-750.
+https://reconnectenergy.atlassian.net/browse/QRDB-751.
+SLDCSESESE.
+//////////
+

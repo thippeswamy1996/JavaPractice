@@ -1,0 +1,46 @@
+6.7 Accuracy of Forecasting:
+Accuracy is the essence of any forecasting exercise. In case of this assignment, the
+Deviation/error shall be defined as the difference of the forecasted value with the actual
+value. Deviation shall be measured with the actual SCADA/AMR data available with SLDC.
+Accordingly, KSEBL drawal/Generation data or any other data related to forecasting
+considered by KSEBL shall be binding on the Contractor for the SLA (Service Level
+Agreement)
+1 Short term forecast
+i) RTM Forecast
+RTM forecastprovided 2 hours ahead shall have an accuracy of 99.5% .
+Revisions shall be allowed for RTMfor the remaining hours of the day. At 21 hrs of the
+day, RTM forecast for the nextday also to be made available.
+ii) Day ahead forecast
+Accuracy over a Day (15 minutes timeblock) Mwh–
+State Periphery -Error shall be less than 2%.
+Intrastate Periphery - Error shall be less than 1.25%.
+Current Demand forecast- average for 15 minutes timeblock need to be programmable
+to 5 minutes timeblock. Tilltraining data is available, 5 minutes historical data to be
+taken by intrapolation.
+Accuracy per block MW–
+State Periphery -shall be less than 2%
+Intrastate Periphery -shall be less than 1.25%.
+(Above accuracy shall be maintained for 92 out of 96 (15 min) blocks /276 out of 288
+115
+Tender Document SAMAST KERALA
+(5 min) blocks in a day ) –
+2 RE Forecast (Separate for Wind and Solar)
+I) RTM Forecast (24 hourly revisions shall be provided for RTM.)
+ RTM forecast provided 2 hours ahead, shall have an accuracy of 99.5% .
+ii) Day ahead forecast (hourly Revisions per Day shall be allowed)
+Accuracy over a Day Mwh–
+State Periphery -shall be less than 2%.
+Intrastate Periphery -shall be less than 1.25%.
+Accuracy per block MW–
+State Periphery -shall be less than 2%
+Intrastate Periphery -shall be less than 1.25%.
+(Above accuracy shall be maintained for 92 out of 96 (15 min) blocks /276 out of 288
+(5 min) blocks in a day ) –
+3 Price Forecast
+Same day forecast (Real Time) – Blockwise….
+Accuracy over a Day–Error shall be less than 2%.
+Accuracy per hour –Error shall be less than 2%
+( Target 90% of blocks in a day must be maintained with permissible error less than 2%)
+ Blocks during Load shedding/ restriction may not to be considered for accuracy level.
+ For security reason, past data of each 15 min time block shall be disabled to avoid
+malfunctioning in Real time forecasting.

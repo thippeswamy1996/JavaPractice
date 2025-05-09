@@ -1,0 +1,63 @@
+The terms **UX (User Experience) issues**, **Usability issues**, and **UI (User Interface) issues** are closely related but focus on different aspects of the user's interaction with a product. Here's a breakdown of the differences:
+
+---
+
+### **1. UX Issues (User Experience Issues):**
+- **Focus:** Overall experience of the user while interacting with the product.
+- **Scope:** Broad and holistic, including usability, emotions, accessibility, and the entire journey.
+- **Examples:**
+  - Navigation is confusing or unintuitive (e.g., user struggles to find a feature).
+  - The app fails to meet user needs or expectations (e.g., lack of essential features).
+  - Users feel frustrated because of slow loading times or unresponsive interactions.
+  - The checkout process has too many steps, leading to cart abandonment.
+  - Inconsistent design breaks the flow of interaction.
+
+**Key Insight:** UX issues encompass both usability and UI issues, along with other factors like emotional satisfaction and overall product utility.
+
+---
+
+### **2. Usability Issues:**
+- **Focus:** How easily and efficiently users can achieve their goals.
+- **Scope:** Subset of UX; concerned with the ease of use and learnability of the interface.
+- **Examples:**
+  - Poor error messages that don't guide users on how to fix problems.
+  - Forms that are difficult to fill out due to unclear instructions.
+  - Lack of keyboard shortcuts for power users or inadequate accessibility features.
+  - Buttons or links that are hard to click due to small size or poor placement.
+  - Missing feedback after an action (e.g., clicking "Submit" but not seeing confirmation).
+
+**Key Insight:** Usability issues hinder users' ability to perform tasks effectively, efficiently, and satisfactorily.
+
+---
+
+### **3. UI Issues (User Interface Issues):**
+- **Focus:** Visual and interactive elements that users interact with.
+- **Scope:** A subset of UX; primarily concerned with aesthetics, design consistency, and interaction.
+- **Examples:**
+  - Text contrast is too low, making it hard to read (accessibility issue).
+  - Inconsistent button styles across the application.
+  - Misaligned icons or overlapping elements in responsive design.
+  - Poorly chosen colors that confuse users (e.g., using red for positive actions).
+  - Non-intuitive placement of interactive elements (e.g., a search bar hidden in the footer).
+
+**Key Insight:** UI issues are focused on the look and feel of the product and the visual aspects that impact interaction.
+
+---
+
+### **Comparison Table:**
+
+| **Aspect**          | **UX Issues**                           | **Usability Issues**                 | **UI Issues**                       |
+|----------------------|------------------------------------------|---------------------------------------|--------------------------------------|
+| **Focus**           | Entire user journey and experience       | Ease of use and task efficiency       | Visual design and interaction elements |
+| **Scope**           | Broad, holistic view                    | Subset of UX                         | Subset of UX, focused on visuals     |
+| **Examples**        | Frustration in completing a workflow     | Difficulty understanding navigation   | Inconsistent button styles           |
+| **Impact**          | Emotional, functional, and practical     | Task performance and satisfaction     | Aesthetics and interaction clarity   |
+
+---
+
+### **In Summary:**
+- **UX Issues** are about the *big picture*—how the user feels and interacts with the system as a whole.
+- **Usability Issues** are specific to the *functionality*—how easy or difficult it is to use the product to achieve goals.
+- **UI Issues** are specific to the *design and aesthetics*—how the interface looks and behaves visually.
+
+All three are interconnected, and addressing them collectively leads to a better product experience.

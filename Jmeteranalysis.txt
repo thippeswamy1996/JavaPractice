@@ -1,0 +1,41 @@
+This report provides information about the performance test executed using Apache JMeter. Let's analyze the data:
+
+1. **Generate Summary Results**:
+   - **297177 in 00:04:35**:
+     - 297,177 requests were processed in 4 minutes and 35 seconds.
+     - Throughput was approximately 1079.3 requests per second.
+     - The average response time was 7775 milliseconds.
+     - Minimum response time observed: 695 milliseconds.
+     - Maximum response time observed: 98832 milliseconds.
+     - Errors occurred in 289,793 requests, leading to a high error rate of 97.52%.
+
+2. **Generate Summary Results + 1427**:
+   - **in 00:00:30**:
+     - 1427 additional requests were processed in 30 seconds.
+     - Throughput was around 47.6 requests per second.
+     - The average response time for these additional requests was 14419 milliseconds.
+     - Minimum response time observed: 1043 milliseconds.
+     - Maximum response time observed: 76476 milliseconds.
+     - Errors occurred in 584 of these requests, with an error rate of 40.93%.
+     - 268 threads were active, out of 10,000 started, and 9732 finished.
+
+3. **Generate Summary Results**:
+   - **298604 in 00:05:05**:
+     - 298,604 requests were processed in 5 minutes and 5 seconds.
+     - Throughput was approximately 977.9 requests per second.
+     - The average response time was 7806 milliseconds.
+     - Minimum response time observed: 695 milliseconds.
+     - Maximum response time observed: 98832 milliseconds.
+     - Errors occurred in 290,377 requests, with an error rate of 97.24%.
+
+4. **Generate Summary Results + 867**:
+   - **in 00:00:30**:
+     - 867 additional requests were processed in 30 seconds.
+     - Throughput was about 28.9 requests per second.
+     - The average response time for these additional requests was 8353 milliseconds.
+     - Minimum response time observed: 1044 milliseconds.
+     - Maximum response time observed: 36781 milliseconds.
+     - No errors occurred in these additional requests.
+     - Only 36 threads were active out of 10,000 started, and 9964 finished.
+
+Overall, the test reveals a high error rate across all scenarios, indicating potential issues with the system under test. The response times vary widely, with some requests experiencing very high latency. Further investigation is required to identify the root cause of these errors and performance bottlenecks.

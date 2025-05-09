@@ -1,0 +1,6 @@
+Need to ask raj
+Hii..regarding HVPNL-MDM,MDP  
+latest commits in the production Code need to be update in the development server.
+development server links for mdm and mdp.
+http://13.235.72.170/mdm-masterdata/index.php/C_login mdm.
+http://13.235.72.170/mdp/index.php/c_login mdp.

@@ -1,0 +1,20 @@
+RLDC"S
+1) Analyzed new requirements for RLDC: GNA, GNA_RE, TGNA, TGNA_RE, and Bundle_RE.
+2) Performed regression testing on existing features, specifically focusing on contract creation (LTA, MTOA, STOA) across all exchanges.
+3) Conducted schedule submission using external tools (template and web interfaces) for Intraday and day-ahead schedules.
+4) Performed schedule submission in the internal tool (template and web methods) for Intraday and day-ahead schedules.
+5) Created tasks to address new requirements.
+6) Tested the contract creation for GNA, GNA_RE, TGNA, TGNA_RE, and Bundle_RE as specified by RLDC's.
+7) Re-tested TGNA bug fixes.
+8) Re-tested bug fixes related to Hybrid issues for 7/8th time block implementation.
+9) Tested the consent page for QCA login.
+10) Developed test data for validating bug fixes and evaluated functionalities using JSON API link.
+11) Re-tested Hybrid bug fixes for new functionalities like 7/8th time block implementation.
+12) Re-tested Consent functionality bug fixes.
+13)Participated in SR, NR, and WR build for GNA/TGNA/contract creation via API
+7TH / 8TH Time block  functionality ,wbes consent,and 96 revision schedule submission 
+  functionality deployment"
+14) Tested various functionalities including contract creation, schedule submissions, JSON data verification, and bug reporting.
+15) Tested the submission of 96 revisions of schedules via templates and web, created contracts, and verified JSON data.
+16) Conducted various types of testing including smoke testing, component testing, component integration testing, system testing, end-to-end testing, and API testing for new functionalities.
+17)Regression testing conducted to ensure the existing functionality of the software working as expected for solar hybrid ,wind stations with all type of the contracts  .

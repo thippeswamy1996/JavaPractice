@@ -1,0 +1,8 @@
+https://reconnectenergy.atlassian.net/browse/SA-59
+https://reconnectenergy.atlassian.net/browse/SA-60
+https://reconnectenergy.atlassian.net/browse/SA-61
+https://reconnectenergy.atlassian.net/browse/SA-62
+https://reconnectenergy.atlassian.net/browse/SA-63
+https://reconnectenergy.atlassian.net/browse/SA-70
+https://reconnectenergy.atlassian.net/browse/SA-71
+Did u asked regarding SS EA functionalities providing in a single build ?

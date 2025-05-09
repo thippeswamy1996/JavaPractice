@@ -1,0 +1,10 @@
+1)NRLDC>Re-test if any bug fixes.
+2)KSEB>AMI(HES)  going through Tender doc.
+3)HVPNL>MDM>Meter registration page test cases updating
+
+
+tgna PROCESS 
+1) Register tgna id for used 
+2)User sam tgna id as px code for particular seller and use same trader buyer existing px code
+3)Upload contract file
+4)check in the update page the same seller buyer .traders detailsa are appering .

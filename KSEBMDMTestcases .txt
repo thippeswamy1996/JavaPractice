@@ -1,0 +1,102 @@
+Here are some detailed test cases for the Meter Data Management (MDM) software based on the requirements provided:
+
+### Test Case 1: Meter Data Validation in MDAS
+**Objective:** Verify that the meter data is correctly validated in the Meter Data Acquisition System (MDAS) for further processing.
+
+**Steps:**
+1. Input valid meter data into the MDAS.
+2. Submit the data for validation.
+3. Check the system response for successful validation.
+
+**Expected Result:**
+- The system should validate the meter data without errors and indicate successful validation.
+
+**Test Case 2: Configuration of ABT Meter Details**
+**Objective:** Ensure the software correctly configures ABT meter details and computes the Multiplying Factor (MF) accurately.
+
+**Steps:**
+1. Navigate to the ABT meter configuration interface.
+2. Enter the following details:
+   - Location of installation
+   - Entity & sub-entity name
+   - Meter ID
+   - Meter Serial Number
+   - Accuracy Class
+   - CT/PT ratios
+3. Save the configuration.
+4. Verify that the MF is computed and stored in the database.
+
+**Expected Result:**
+- The details should be saved successfully.
+- The MF should be computed based on the entered data and stored correctly in the database.
+
+**Test Case 3: Manual Entry of Total Energy Data**
+**Objective:** Verify that the software allows manual entry of total energy data with the appropriate approval workflow.
+
+**Steps:**
+1. Access the manual entry interface for total energy data.
+2. Enter the total energy data for a specific meter.
+3. Submit the data for approval.
+4. Follow the approval workflow as per configuration.
+5. Verify the data entry and approval status.
+
+**Expected Result:**
+- The manual entry should be accepted and the data should be stored only after successful approval.
+
+**Test Case 4: Entity-Wise Meter Data Processing**
+**Objective:** Ensure the software processes meter data and develops entity-wise meter data information correctly.
+
+**Steps:**
+1. Input meter data into the MDAS.
+2. Initiate the processing of meter data.
+3. Verify that the entity-wise meter data information is generated correctly.
+
+**Expected Result:**
+- The software should process the data and produce accurate entity-wise meter data information.
+
+**Test Case 5: Configuration/Linking of ABT Meters with Polarity**
+**Objective:** Confirm that the software allows configuration/linking of ABT meters with polarity and categorizes meters correctly.
+
+**Steps:**
+1. Access the meter configuration/linking interface.
+2. Configure/link meters to entities with their respective polarity.
+3. Categorize meters as Main, Check, or Standby.
+4. Save the configurations.
+
+**Expected Result:**
+- Meters should be correctly linked with their polarity and categorized appropriately for energy computation.
+
+**Test Case 6: Automatic Computation of 15-Minute Block Values**
+**Objective:** Verify that the software automatically computes 15-minute block (including 5 minutes in the future) active export, import, and reactive energy values.
+
+**Steps:**
+1. Input meter data with active export, import, and reactive energy values.
+2. Check the computation for 15-minute blocks, including the 5-minute future values.
+3. Validate the computed values for accuracy.
+
+**Expected Result:**
+- The software should correctly compute and display 15-minute block values, including future blocks.
+
+**Test Case 7: Reading and Updating 15-Minute Block Data**
+**Objective:** Ensure that the software can read and update 15-minute block data values and reactive high/low midnight values according to the user-defined period.
+
+**Steps:**
+1. Set a period for updating 15-minute block data.
+2. Read and verify active export, import, and reactive high/low midnight values.
+3. Update the database with the new values.
+
+**Expected Result:**
+- The software should accurately read, update, and store the 15-minute block and reactive midnight values as per the defined period.
+
+**Test Case 8: ABT Meter Data Validation, Estimation, and Assessment**
+**Objective:** Verify that the software performs validation, estimation, and assessment of ABT meter data correctly.
+
+**Steps:**
+1. Input ABT meter data into the system.
+2. Run the validation, estimation, and assessment processes.
+3. Review the results of these processes.
+
+**Expected Result:**
+- The software should perform all the specified processes (validation, estimation, and assessment) and provide accurate results.
+
+These test cases cover the core functionalities and ensure that the Meter Data Management software meets the specified requirements.

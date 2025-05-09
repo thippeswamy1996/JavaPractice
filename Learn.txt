@@ -1,0 +1,23 @@
+It seems like there might be a slight confusion in your question. If you're asking about a specific coding institute named "Coding Ninjas," as of my last knowledge update in January 2022, Coding Ninjas is an online platform that provides coding courses and programming training.
+
+Coding Ninjas offers a variety of courses on programming languages, data structures, algorithms, web development, machine learning, and more. They aim to provide a comprehensive learning experience for individuals looking to enhance their coding skills.
+
+If you are interested in learning coding through Coding Ninjas, you can visit their official website, explore the courses they offer, and choose the one that aligns with your learning goals. Keep in mind that platforms and course offerings may change over time, so it's a good idea to check their latest offerings, reviews, and testimonials.
+
+To learn coding effectively, regardless of the platform, here are some general tips:
+
+1. **Set Clear Goals:** Define what you want to achieve with your coding skills, whether it's web development, data science, or another field.
+
+2. **Start with Basics:** If you're a beginner, make sure to understand the fundamentals of programming and a specific programming language.
+
+3. **Practice Regularly:** Coding is a skill that improves with practice. Solve coding problems, work on projects, and participate in coding challenges.
+
+4. **Engage with a Community:** Join coding communities, forums, or social media groups. Learning from others and seeking help when needed can be valuable.
+
+5. **Explore Diverse Topics:** Depending on your interests, explore various areas of coding. It could be algorithms, databases, mobile app development, etc.
+
+6. **Build Projects:** Apply your knowledge by working on real-world projects. This not only reinforces what you've learned but also helps you build a portfolio.
+
+7. **Stay Updated:** Technology evolves, so stay informed about the latest developments in the programming world.
+
+Remember, the effectiveness of any learning platform, including Coding Ninjas, also depends on your dedication, practice, and engagement with the learning materials. Always check the latest reviews and testimonials to ensure that the platform meets your expectations.

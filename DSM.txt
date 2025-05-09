@@ -1,0 +1,2 @@
+1)New patch changes have been tested in the QCA-DSM application.
+2)The signature change functionality for new registrations has been tested.

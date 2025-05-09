@@ -1,0 +1,36 @@
+MDM_Test book cases executing.
+HVPNL_SS>if bug fixes need to re-test.
+MP>Re-testing bug fixes,
+RLDC'S>Feasibality stutdy meeting.
+//
+MP(Submitted data to check 1 to 96 blocks ) submitted from the internal for data revidsion from the first block to 96 block.
+{
+    "schedule_entity_name": "REConnect",
+    "Date": "2024-01-09",
+    "revision_no": "DA",
+    "POS": [
+        {
+            "pos_name": "BANCO 1",
+            "declared_forcast": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+            "avc_value": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+            "contracts": [
+                {
+                    "contract_id": "CONTRACT00124",
+                    "dss_name": "BANCO 1",
+                    "energy_type": "SOLAR",
+                    "contract_type": "LTA",
+                    "exchange_type": "NA",
+                    "transcationtype": "INTRA",
+                    "re_generator_name": "VIVAAN SOLAR PVT LTD",
+                    "path_name": "west-west",
+                    "buyer": "MPPMCL",
+                    "stu_name": "MAKDON",
+                    "approval_num": "BANCO 1",
+                    "max_contracted_cap": "14.8",
+                    "capacity_gen": "14.8",
+                    "schedule_value": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4"
+                }
+            ]
+        }
+    ]
+}

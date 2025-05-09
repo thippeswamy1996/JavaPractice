@@ -1,0 +1,6 @@
+
+////
+http://172.17.1.85/HES/index.php/C_monitoring/insightsDr giving db error.
+//////////////
+
+http://localhost/kseb_price_fc/index.php/Login/login

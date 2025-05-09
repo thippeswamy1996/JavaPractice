@@ -1,0 +1,20 @@
+ 1)HVPNL-MDM>Regression testing is done. 
+ 2)HVPNL-MDM-The Bug report has been prepared.  
+ 3)HVPNL-MDM Login page test cases written   
+ 4)HVPNL-MDM Login page tested and bugs have been  reported
+ https://reconnectenergy.atlassian.net/browse/SAM-95 
+ https://reconnectenergy.atlassian.net/browse/SAM-96 
+ https://reconnectenergy.atlassian.net/browse/SAM-97 
+ https://reconnectenergy.atlassian.net/browse/SAM-98  
+ https://reconnectenergy.atlassian.net/browse/SAM-99  
+ https://reconnectenergy.atlassian.net/browse/SAM-101 
+ https://reconnectenergy.atlassian.net/browse/SAM-103 
+ 5)HVPNL_MDM Re-tested Bug fixes  
+ https://reconnectenergy.atlassian.net/browse/SAM-82(closed)
+ https://reconnectenergy.atlassian.net/browse/SAM-84(Reopned)  
+ https://reconnectenergy.atlassian.net/browse/SAM-86(Closed)  
+ https://reconnectenergy.atlassian.net/browse/SAM-89(Closed) 
+ https://reconnectenergy.atlassian.net/browse/SAM-106(new) 
+ https://reconnectenergy.atlassian.net/browse/SAM-107(new) 
+ https://reconnectenergy.atlassian.net/browse/SAM-108(new) 
+ https://reconnectenergy.atlassian.net/browse/SAM-109(new)

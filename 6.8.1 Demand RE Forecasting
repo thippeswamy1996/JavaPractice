@@ -1,0 +1,38 @@
+
+6.8.1 Demand/RE Forecasting
+Accuracy
+Criteria
+Nos.of block achieved with in
+range in a day (Average taken over
+one year)
+Variable amount of BG to be
+released
+A Equal or above 92 block in a day 100%
+B In between 83 to 91 block in a day 75%
+C In between 61 to 82 block in a day 50%
+D In between 49 to 60 block in a day 25%
+E Below or equal to 48 block in a day Nil payment
+Minimum expected day ahead accuracy shall be 50 % (i.e. equal or above to 48 number of
+blocks for load forecasting).
+Minimum expected intraday accuracy shall be 65 % (i.e. equal or above 62 number of
+blocks for load forecasting.)
+6.8.2 Price forecast
+(All eligible revisions shall be considered) Total Nos. of blocks in a day: 96 blocks
+Accuracy
+Criteria
+Nos.ofblockachievedwithinrange
+inaday (Average taken over one
+year)
+Variable amount of BG to be
+released
+A Equal or above 92 block in a day 100%
+B In between 83 to 91 block in a day 75%
+C In between 61 to 82 block in a day 50%
+D In between 49 to 60 block in a day 25%
+E Below or equal to 48 block in a day Nil payment
+117
+Tender Document SAMAST KERALA
+Minimum expected day ahead accuracy shall be 50 % (i.e. equal or above to 48 number of
+blocks for load forecasting).
+Minimum expected intraday accuracy shall be 65 % (i.e. equal or above 62 number of
+blocks for load forecasting.)

@@ -1,0 +1,34 @@
+The XPath `//*[@id='justified-tab-1']` is a **good method** for selecting an element in most cases because it is:
+
+1. **Attribute-Based and Unique:**
+   - It directly uses the `id` attribute, which is generally unique in a well-structured HTML document.
+
+2. **Relative XPath:**
+   - The `//` indicates that it's relative and doesn't depend on the complete DOM hierarchy, making it more stable against layout changes.
+
+---
+
+### **Why This XPath is Good:**
+- **Unique Identifier:** If the `id` attribute is unique (as it should be), this XPath will reliably target the correct element.
+- **Short and Readable:** It's simple and easy for others to understand and maintain.
+
+---
+
+### **When to Reconsider:**
+However, if the `id` is **dynamic** (e.g., it changes on page reloads or under different conditions), this XPath might become unreliable. In such cases, you should:
+1. Use a more robust selector, such as:
+   ```xpath
+   //*[contains(@id, 'justified-tab')]
+   ```
+2. Combine with other attributes or parent-child relationships:
+   ```xpath
+   //div[@class='tab-container']//*[@id='justified-tab-1']
+   ```
+
+---
+
+### **Best Practice Check:**
+- Validate the XPath using the browser's DevTools (`Ctrl + F` in the Elements tab).
+- Ensure the `id` is static and unique in your application.
+
+If `id='justified-tab-1'` is static and unique, you can confidently use this XPath.

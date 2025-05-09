@@ -1,0 +1,27 @@
+### Functional Test Case for Deviation Charge Calculation
+
+**Test Case ID:** TC_DEVIATION_001  
+**Description:** Verify the calculation of deviation charges based on absolute error percentage in a 15-minute time block.
+
+**Preconditions:**  
+- Solar generation or Wind-Solar Hybrid generation data is available for a specific time block.
+
+**Test Steps:**
+
+1. **Input Scenario 1:** Set absolute error to 8%.  
+   **Expected Result:** Deviation charge should be "None".
+
+2. **Input Scenario 2:** Set absolute error to 11%.  
+   **Expected Result:** Deviation charge should be calculated as Rs. 0.25 per unit for the excess of 1% (11% - 10%).
+
+3. **Input Scenario 3:** Set absolute error to 12%.  
+   **Expected Result:** Deviation charge should be calculated as Rs. 0.25 per unit for the excess of 2% (12% - 10%).
+
+4. **Input Scenario 4:** Set absolute error to 15%.  
+   **Expected Result:** Deviation charge should be "None" since it exceeds 12%.
+
+**Postconditions:**  
+- Ensure that the system accurately reflects the deviation charges based on the specified rules.
+
+**Notes:**  
+- Ensure edge cases (10% and 12%) are tested for accurate boundary behavior.

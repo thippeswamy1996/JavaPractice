@@ -1,0 +1,9 @@
+6.6.3 Price forecasting
+Power price forecasting (spot electricity markets) shall be provided to enable Market
+Operation wing to make efficient procurement decisions. RTM/DAM, Congestion-ATC NEWR-SR, S1-S2S3, Within SR, etc. shall be the factors affecting Price forecast.
+The following factors, which are critical inthe forecast of the price pattern, shall
+113
+Tender Document SAMAST KERALA
+beconsidered, like All-India Power generation, All-India Power Demand (Influencers),
+Historical Exchange price/volume pattern in trading, Plant Outages, Weather parameters
+ and influences, Transmission Constraints, Marginal bid levels for Buy & Sell.

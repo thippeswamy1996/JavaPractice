@@ -1,0 +1,8 @@
+https://reconnectenergy.atlassian.net/jira/software/projects/KSEB/boards/67/backlog
+
+
+HVPNL-Mobile app Writing functional test cases.
+KSEB-Hes if any bug-fixes re-test.
+HVPNL-Mobile app if any bug fixes re-test.
+////////
+file:///C:/xampp/htdocs/Webtechnology/javascriptlearning/dashoboard.html

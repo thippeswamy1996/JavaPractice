@@ -1,0 +1,50 @@
+ import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.time.Duration;
+
+public class DynamicAutomation {
+
+    public static void main(String[] args) {
+        // Set up WebDriver
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Reconnect\\eclipse-workspace\\ksebautomationproject\\driver\\chromedriver.exe"); // Update with your chromedriver path
+        WebDriver driver = new ChromeDriver();
+
+        try {
+            // Navigate to the URL
+            driver.get("http://13.235.72.170/mdm-masterdata/index.php/C_login");
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+            // Log in with the provided credentials
+            driver.findElement(By.id("username")).sendKeys("MDM_APPROVER");
+            driver.findElement(By.id("password")).sendKeys("1234567"); // Corrected typo
+
+            driver.findElement(By.id("btn_login")).click();
+
+            // Navigate to Substation section
+            driver.findElement(By.xpath("//a[@class='label-nav']//span[text()='Update']")).click();
+            driver.findElement(By.xpath("(//a[text()='Substation'])[2]")).click();
+
+            // Count rows and columns in the table
+            int rows = driver.findElements(By.tagName("tr")).size();
+            int columns = driver.findElements(By.xpath("(//tr)[1]//th")).size();
+
+            // Extract the substation name from the table
+            String substationName = driver.findElement(By.xpath("//table//tr[2]//td[3]")).getText();
+
+            // Print results
+            System.out.println("Number of rows in the table: " + rows);
+            System.out.println("Number of columns in the table: " + columns);
+            System.out.println("Substation Name: " + substationName);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // Close the browser
+            driver.quit();
+        }
+    }
+}

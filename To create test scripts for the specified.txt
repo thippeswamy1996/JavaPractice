@@ -1,0 +1,60 @@
+To create test scripts for the specified scenarios using Java and Selenium, you can follow the example below. Please ensure that you've set up your Selenium WebDriver and have navigated to the appropriate web page.
+
+1. Verify that the Validation Mapping Submenu is Present in the Registration Menu:
+
+```java
+WebElement registrationMenu = driver.findElement(By.linkText("Registration"));
+if (registrationMenu.isDisplayed()) {
+    // Click the Registration Menu to expand it
+    registrationMenu.click();
+    
+    WebElement validationMappingSubMenu = driver.findElement(By.linkText("Validation Mapping"));
+    if (validationMappingSubMenu.isDisplayed()) {
+        System.out.println("Validation Mapping submenu is present in the Registration menu.");
+    } else {
+        System.out.println("Validation Mapping submenu is not present in the Registration menu.");
+    }
+} else {
+    System.out.println("Registration menu is not visible.");
+}
+```
+
+2. Verify that the Validation Mapping Submenu is Clickable:
+
+```java
+// Assuming you have already expanded the Registration menu as in the previous script
+WebElement validationMappingSubMenu = driver.findElement(By.linkText("Validation Mapping"));
+if (validationMappingSubMenu.isDisplayed()) {
+    // Click the Validation Mapping Submenu
+    validationMappingSubMenu.click();
+    
+    // Add validation for the functionality after clicking the submenu
+}
+```
+
+3. Verify the Title of the Validation Mapping Registration Page:
+
+```java
+// Assuming you have navigated to the Validation Mapping Registration page
+WebElement pageTitle = driver.findElement(By.cssSelector("h1.page-title"));
+String expectedTitle = "Validation Mapping Registration Page"; // Update with the actual expected title
+
+if (pageTitle.isDisplayed() && pageTitle.getText().equals(expectedTitle)) {
+    System.out.println("Validation Mapping Registration page title is correct.");
+} else {
+    System.out.println("Validation Mapping Registration page title is incorrect.");
+}
+```
+
+4. Verify Font Size, Text Color, and Text Alignment of the Validation Mapping Page Title:
+
+```java
+// Assuming you have the 'pageTitle' WebElement as defined in the previous script
+String fontSize = pageTitle.getCssValue("font-size");
+String textColor = pageTitle.getCssValue("color");
+String textAlignment = pageTitle.getCssValue("text-align");
+
+// Add validation checks for font size, text color, and text alignment
+```
+
+These scripts cover the verification of the presence, clickability, and style attributes of the Validation Mapping submenu and the title of the corresponding page. Make sure to customize the element locators, expected title, and style attributes according to your actual web application.

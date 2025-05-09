@@ -1,0 +1,8 @@
+1. Re-tested and verified bug fixes, and generated test data for re-testing the scenarios associated with the bug fixes.
+2. Conducted the daily stand-up meeting, which involved discussing progress made in the previous day, addressing any obstacles or challenges, and reviewing tasks to be completed for the current day.
+3. Executed the manual file upload test case for HPX Exchange type on the MH internal regression server to submit the contract. Additionally, test data was prepared for this specific test case.
+4. Performed the schedule submission test case for HPX Exchange type, utilizing both a template and web upload, on the MH internal regression server. Test data was also created for this particular test case.
+5. Re-tested the bug with the ID https://reconnectenergy.atlassian.net/browse/RT-1873, and generated test data to cover the bug fix scenarios.
+6. Executed the schedule submission test case for HPX Exchange type, using both a template and web upload, on the MH external regression server. Test data was likewise prepared for this test case.
+7. Created test data to re-test the bug fixes associated with the bug IDs: https://reconnectenergy.atlassian.net/browse/RT-1899 and https://reconnectenergy.atlassian.net/browse/RT-1900.
+8. Reopened the closed bug with the ID https://reconnectenergy.atlassian.net/browse/RT-1877, as the bug fixes had an impact on other functionalities of the working software.

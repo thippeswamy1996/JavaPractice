@@ -1,0 +1,11 @@
+Create all contracts and check entries in the update page and db 3 tables.for TGNA_RE for date is not storing and in schedule template contract is not coming
+INT/EXT-By template done for intra/DA/WA day revision 
+INT/EXT-By web-done for intra day/DA/WA revision
+INT/EXT-Hybrid INT/HISTORICAL /ID/DA/WA
+Schedule generation-done for intra day/DA/WA revision
+Final implementation-done 
+Json-done for intra day/DA revision
+Schedule monitoring done for INTRADAY/DA /WArevision
+Reports
+Grid management
+Schedule monitoring done for INTRADAY/DA /WArevision

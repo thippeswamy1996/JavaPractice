@@ -1,0 +1,2 @@
+1) OX>View_taxonomy test cases have been  executed and the test execution report has been prepared 
+2) Bug fixes have been retested and updated the respective bug ids status in the jira dashboard. 

@@ -1,0 +1,70 @@
+Certainly! Here are the test cases for the mentioned points related to Bundled RE Contracts:
+
+### Test Cases:
+
+#### Test Case 1: Bundled RE Transactions in POST API
+
+1. **Objective:**
+   - To verify that WBES shares Bundled RE Transactions in the POST API with the Contract Tag "Bundled-RF."
+
+2. **Steps:**
+   - Execute the POST API for Bundled RE Transactions.
+   - Check the response for the presence of the "Bundled-RF" Contract Tag.
+   - Validate that the API includes the related changes as mentioned in the API documentation.
+
+3. **Expected Result:**
+   - The API response contains the "Bundled-RF" Contract Tag and includes the specified changes.
+
+#### Test Case 2: Seller Consent for Bundled Transactions
+
+1. **Objective:**
+   - To ensure that Bundled RE Transactions require seller consent similar to GNA transactions.
+
+2. **Steps:**
+   - Attempt to schedule a Bundled RE Transaction without obtaining seller consent.
+   - Obtain seller consent for the Bundled RE Transaction.
+   - Retry scheduling after obtaining seller consent.
+
+3. **Expected Result:**
+   - The system prevents scheduling without seller consent.
+   - After obtaining seller consent, scheduling for the Bundled RE Transaction is allowed.
+
+#### Test Case 3: Seller Consent Status for Bundled Transactions
+
+1. **Objective:**
+   - To confirm that the status of seller consent for Bundled transactions is shared with WBES.
+
+2. **Steps:**
+   - Check the status of seller consent for a Bundled RE Transaction in the REMC scheduling tool.
+   - Verify that the status is correctly shared with WBES through the appropriate API.
+
+3. **Expected Result:**
+   - The status of seller consent for Bundled transactions is accurately reflected in both the REMC scheduling tool and the API shared with WBES.
+
+#### Test Case 4: Registration of Bundled Contracts in REMC
+
+1. **Objective:**
+   - To validate the provision for the registration of Bundled contracts along with other contract types in the REMC scheduling tool.
+
+2. **Steps:**
+   - Register a Bundled contract in the REMC scheduling tool.
+   - Verify that the registration process for Bundled contracts is similar to other contract types.
+   - Check for the presence of Bundled contracts in the list of all contracts for the scheduling entity and internal user.
+
+3. **Expected Result:**
+   - Bundled contracts can be registered in the REMC scheduling tool.
+   - The registration process is consistent with other contract types.
+   - Bundled contracts are visible in the list of all contracts for the scheduling entity and internal user.
+
+#### Test Case 5: Contract Details in REMC Tool
+
+1. **Objective:**
+   - To ensure that contract details are registered in the REMC tool and can be viewed by the user.
+
+2. **Steps:**
+   - Fetch or register all contract details in the REMC tool.
+   - Access the REMC tool as both the scheduling entity and internal user.
+   - Verify that all contract details, including Bundled contracts, are visible.
+
+3. **Expected Result:**
+   - All contract details, including Bundled contracts, are successfully registered and visible to both the scheduling entity and internal user in the REMC tool.

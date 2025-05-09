@@ -1,0 +1,4 @@
+1)HVPNL>MIS UAT/FAT book test cases Executed. 
+2)HVPNL>MIS>Bugs reported.
+3)HVPNL>MIS bug fixes re-tested. 
+4)Mobile application tested.

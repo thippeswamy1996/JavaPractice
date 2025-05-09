@@ -1,0 +1,80 @@
+
+
+Updated the MSUI file test cases.
+ Revised the billing test cases.
+ Reconfigured the DSM Bill generation process.
+Conducted regression testing for NR, SR, and WR crons.
+Managed test cases for the following Jira issues:
+RT-1815
+RT-1816
+RT-1817
+Defined test scenarios for Phase 2 of MH (Mobile Home) testing.
+Executed test cases for Jira issues RT-1837 and RT-1838.
+Conducted testing for Dynamic Contract Management.
+Verified that all entries are correctly stored in the database, unlike the previous limitation of only one entry for the same approval number.
+Tested Jira issue RT-1827.
+Tested Jira issue RT-1826.
+Executed test cases for GTAM_PXI.
+Performed STOA functional testing.
+Re-tested bug fixes.
+Documented FTA (Fault Tree Analysis) cases for Dynamic Contract Management.
+Executed FAT (Factory Acceptance Test) GTAM test cases.
+Created a workflow document for Dynamic Contract Management.
+Conducted testing on the MH Schedule Monitoring page.
+Tested the auto schedule template download and submission through the provided API link.
+Prepared a workflow document for auto schedule template download and submission.
+Developed test cases.
+Wrote and executed test cases for the Register and Upload KYC module.
+Executed test cases for the OX website, specifically for admin login and application workflow.
+Conducted test case execution for the buyer homepage.
+Executed test case execution for the seller homepage.
+Created seller tickets and executed test cases for updating existing tickets.
+Executed test cases for buyers responding to seller-announced tickets.
+Conducted inter and intra AVC (Automatic Voltage Control) requirement test cases (Requirement 1).
+Performed GTAM (Guaranteed Transmission Availability Mechanism) and RTM (Real-Time Market) requirement test cases (Requirement 2).
+Reviewed client comments for phase 1 and phase 2 testing in the testing environment.
+Tested new JSON data calculation changes in the MH build for inter-data sending to the WR (Web Report).
+Executed test cases for viewing organization buyer profiles.
+Executed test cases for viewing individual seller profiles.
+Retested bug fixes for KYC upload in OX.
+Reviewed workflow documentation for new changes in OX.
+Wrote test scripts for verifying organization profile table headings in OX.
+Checked the SRS (Software Requirement Specification) for the Settlement System.
+Prepared a workflow document for MP auto schedule submission and updated necessary changes in the workflow document.
+Tested new JSON data calculation changes in MP Local build for inter-data sending to the WR.
+Analyzed the MH_New JSON changes document through a walkthrough.
+Updated Dynamic Contract workflow according to new changes.
+Tested schedule submission with provided scenarios.
+Executed test cases for organization profile registration.
+Executed test cases for individual profile registration.
+Wrote and executed test cases for KYC details.
+Executed KYC details.
+Executed test cases for Register_Preview & Submit.
+Conducted test cases for the Buyer Homepage.
+Performed exploratory testing for login credential creation and KYC details update.
+Retested bug fixes for OX.
+Reviewed test cases for organization profile registration.
+Reviewed test cases for individual profile registration.
+Reviewed test cases for Register_Preview & Submit.
+Reviewed test cases for the Buyer Homepage.
+Wrote test scenarios for OX Taxonomy.
+Reviewed the new workflow document.
+Wrote test scenarios for deleting sub-sectors in OX.
+Wrote test scenarios for deleting outcomes in OX.
+Wrote test cases for viewing outcomes taxonomy in OX.
+Executed test cases for Buyer-wise ticket creation and prepared a test execution report.
+Executed test cases for viewing admin logs in OX.
+Executed test cases for viewing buyer organization profiles in OX.
+Executed test cases for viewing seller organization profiles in OX.
+Executed test cases for profile password change in OX.
+Executed test cases for updating created tickets in OX.
+Created test data in the MSLDC Build, as provided by MSLDC.
+Created upstream and downstream components.
+Created  scheduling entities required for client 
+to test the pahse 1 RTM,GTAM, HPX And
+the inter and the intra functionalities as per requirement FDS.
+Defined points of schedule as per MSLDC requirements.
+Registered utilities in accordance with SLDC requirements.
+Testd the  system testing in MH testing environment for the rtm ,gtam,hpx,pxi,iex functionalities .
+Executed test cases for viewing taxonomy.
+//////till now speter 11-09-2023///////

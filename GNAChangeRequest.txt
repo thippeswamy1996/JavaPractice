@@ -1,0 +1,30 @@
+The document describes the implementation of General Network Access (GNA) related changes in the existing REMC (Renewable Energy Management Centre) Forecasting and Scheduling tool. The changes are in response to new regulations issued by CERC (Central Electricity Regulatory Commission). The key points include:
+1.Overview:
+The document addresses the procedure for accommodating new GNA regulations in the REMC tool.
+
+2. **Functional View:**
+   - Describes the implementation of GNA-related changes in the existing system.
+   - Accommodates GNA, RE GNA, T-GNA (Bilateral), and T-GNA (Collective) contract types.
+
+3. **Process Flow:**
+   - Static Data Synchronization: Details synchronized with WBES through an APL, including buyer, seller, and trader details.
+   - Registration of Scheduling Entity and PoS: Entities registered in REMC for data syncing with WBES.
+   - Creation of Contracts in WBES: Contracts and related details created in WBES.
+   - Data Sharing with REMC: Mandatory contract details shared from WBES to REMC using the Post API.
+   - Contract Sync in REMC: Contracts synced in REMC from WBES using POST-API.
+   - Seller's Consent: RE Generators can provide consent, and approved contracts are registered.
+   - Scheduling Authorization: Generators with approved contracts allowed to schedule power in REMC.
+   - Fetching TGNA(STOA) Bilateral Data from NOAR: TGNA Bilateral data fetched from NOAR API based on TGNA Injecting utility(STOA) ID.
+   - Schedule Submission in REMC: Generators submit schedules, and various validations are performed in the REMC scheduling tool.
+   - Withdrawal Schedule Fetching: Withdrawal schedule for Storage Plants fetched from WBES through an existing API method.
+   - Buyer Requisition Fetching: Buyer requisition for EASS plants fetched from WBES using a new API.
+   - Curtailment Details Fetching: Curtailment details fetched from WBES using another API.
+   - Schedule Generation Logic Update: Logic updated considering Declaration, Requisition, and Curtailment.
+   - Transfer of REMC data to WBES: Generated schedules transferred to WBES via an existing API with required modifications.
+   - API Automation, Manual, and Logging: All API fetching processes automated, with manual fetch options provided for flexibility.
+
+4. **Additional Implementation Details:**
+   - Inter-State Schedules from State REMC to RLDC: Inter-state Day Ahead and Intra Day schedules shared with RLDC-WBES using a separate API.
+   - Loss Module: Changes in storing and revising PoC Loss for loss calculations.
+
+The process flow provides a detailed roadmap for implementing the necessary changes in the REMC tool to comply with the new GNA regulations.

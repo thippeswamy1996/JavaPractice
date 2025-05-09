@@ -1,0 +1,67 @@
+https://reconnectenergy.atlassian.net/browse/KSEB-4
+https://reconnectenergy.atlassian.net/browse/KSEB-5
+https://reconnectenergy.atlassian.net/browse/KSEB-6
+
+https://reconnectenergy.atlassian.net/browse/KSEB-8
+https://reconnectenergy.atlassian.net/browse/KSEB-9
+https://reconnectenergy.atlassian.net/browse/KSEB-10
+https://reconnectenergy.atlassian.net/browse/KSEB-27
+https://reconnectenergy.atlassian.net/browse/KSEB-28
+https://reconnectenergy.atlassian.net/browse/KSEB-29
+https://reconnectenergy.atlassian.net/browse/KSEB-30
+https://reconnectenergy.atlassian.net/browse/KSEB-31
+
+
+////////////////////////////////////////////////////
+https://reconnectenergy.atlassian.net/browse/KSEB-11
+https://reconnectenergy.atlassian.net/browse/KSEB-35
+https://reconnectenergy.atlassian.net/browse/KSEB-36
+https://reconnectenergy.atlassian.net/browse/KSEB-37
+https://reconnectenergy.atlassian.net/browse/KSEB-38
+https://reconnectenergy.atlassian.net/browse/KSEB-39
+https://reconnectenergy.atlassian.net/browse/KSEB-40
+
+Need to create jira for ami issues (Created)
+
+KSEB>HES -testing 
+KSEB>Bug report preparing.
+RLDC>If any bug fixes need to be -re-test
+///////////////
+hes
+https://reconnectenergy.atlassian.net/browse/KSEB-35
+
+
+1)NRLDC>Test data is preparing for RLDC training.
+2)KSEB>Demand Smoke testing.
+
+////////KSEB_HES./////////
+Reports-computed-not present.
+Search option to be provided in all the dropdowns.
+Reports-raw data is not present in all the dropdowns.
+
+
+//
+KSEB>Demand Smoke testing issues.
+1)Actual demand values are not displayed 
+Day ahead and weekahead showing data is not available.
+2)day ahead data is not present
+3)Week ahead data is not present.
+4)5 minutes forecst generation option not provided.
+5)One month ahead  forecst generation option not provided .
+6)Forecasts for 1 to 5 years not provided .
+7)Log out functionality is not working.
+8)Need to   provide the  kseb logo and welcome text as per KSEB requirements.
+11)fortfolio optimization>input>plant name data is not present in the dropdown.
+12)fortfolio optimization>input>Monthly file template is not able  download.
+13)fortfolio optimization>input>Daily  file template is not able  download.
+14)fortfolio optimization>input>File upload field text is not clearly visible.
+15)fortfolio optimization>output>Net Data not available
+16)fortfolio optimization>output>Contracts Data not available.
+17)fortfolio optimization>output>WE/RE Data not available
+18)RE>Forecast>Forecast vs actual menu is not clickable.
+19)Price forecasting >only 13 regision added need to add all the required remaning regions data.
+20)Price forecasting >Forecast vs actual page submit button is not visible.
+
+
+
+ 

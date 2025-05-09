@@ -1,0 +1,12 @@
+[
+        {
+            "path_name": "PATH NR 1",
+            "from_link": "PARH N",
+            "to_link": "PATH NR1 "
+        },
+        {
+           "path_name": "PATH NR 2",
+            "from_link": "PARH N2",
+            "to_link": "PATH NR2 "
+        }
+    ]

@@ -1,0 +1,42 @@
+### Test Case: Approval Number and Max Contract Capacity Consistency
+
+**Objective:**
+To ensure that the Approval Number and Max Contract Capacity for any particular contract are consistent and unique across the PSM file, WBES, and REMC Database.
+
+**Preconditions:**
+1. PSM files, WBES, and REMC Database are accessible and configured for the test.
+2. Contracts with various Approval Numbers and Max Contract Capacities exist in the PSM file, WBES, and REMC Database.
+
+**Steps:**
+
+1. **Verify Consistency in PSM File:**
+   a. Open the PSM file containing various contracts.
+   b. For each contract, check that the Approval Number and Max Contract Capacity are specified.
+   c. Ensure that there are no missing or inconsistent entries for Approval Number or Max Contract Capacity.
+   d. Confirm that the Approval Numbers are unique for each contract.
+
+2. **Verify Consistency with WBES:**
+   a. Access the WBES system.
+   b. Retrieve the contracts' details that correspond to the ones in the PSM file.
+   c. Check that the Approval Numbers and Max Contract Capacities match those in the PSM file.
+   d. Ensure that there are no missing or inconsistent entries.
+
+3. **Verify Consistency with REMC Database:**
+   a. Access the REMC Database.
+   b. Retrieve the contracts' details that correspond to the ones in the PSM file.
+   c. Check that the Approval Numbers and Max Contract Capacities match those in the PSM file.
+   d. Ensure that there are no missing or inconsistent entries.
+
+4. **Unique Approval Numbers:**
+   a. Check that each Approval Number in the PSM file is unique.
+   b. Verify that each Approval Number in WBES is unique.
+   c. Confirm that each Approval Number in the REMC Database is unique.
+
+**Expected Results:**
+1. The Approval Numbers and Max Contract Capacities in the PSM file are consistent and free of missing entries.
+2. The Approval Numbers and Max Contract Capacities in WBES match those in the PSM file.
+3. The Approval Numbers and Max Contract Capacities in the REMC Database match those in the PSM file.
+4. Each Approval Number is unique within the PSM file, WBES, and the REMC Database.
+
+**Note:**
+If any inconsistencies or issues are found during the verification steps, the test case should be considered failed, and further investigation and resolution are required.

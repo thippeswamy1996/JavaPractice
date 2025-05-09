@@ -1,0 +1,3 @@
+https://docs.google.com/spreadsheets/d/1TJ_VbaMHGNu2m24b1eLmbQ5RNF6K1s1ZO7wtWiyTRoc/edit?gid=0#gid=0
+1)HVPNL_Mobile app functional test cases written for HOME-Realtime-SCADA State.
+2)HVPNL_Mobile app functional test cases written for HOME-Transmission-Outage.

@@ -1,0 +1,130 @@
+### Test Case for Seller Consent and Consent Status API
+
+#### Test Case: Seller Consent and Consent Status API Implementation
+
+1. **Objective:**
+   - To ensure that the seller can provide consent for GNA contracts, and the consent status API functions correctly for communication with WBES.
+
+2. **Steps:**
+   a. Log in to the REMC system as a seller/user.
+   b. Navigate to the contract details section.
+   c. Verify that all contract details are accurate.
+   d. Choose one of the following options:
+      - Click "Yes" to provide consent for the contract details.
+      - Click "No" to reject the information.
+   e. If "No" is selected, add a note with the text "The reasons for not providing the consents must be only due to lack of adequate PSM."
+   f. Verify that the consent status is updated accordingly.
+
+3. **Expected Result:**
+   a. The user is successfully logged in as a seller/user.
+   b. The contract details section is accessible.
+   c. All contract details are accurate.
+   d. The user can successfully choose "Yes" or "No" for consent.
+   e. If "No" is selected, a note with the specified text is added.
+   f. The consent status is updated accurately.
+
+4. **Test Case: Daily Consent Check for GNA/GNA-RE Contracts**
+
+   - **Objective:**
+      - To verify that GNA/GNA-RE contracts valid for more than one day do not require daily consent unless there are changes in contract details.
+
+   - **Steps:**
+      a. Create a GNA/GNA-RE contract valid for more than one day.
+      b. Provide consent once for the contract.
+      c. Verify that daily consent is not required unless there are changes in contract details.
+      d. Make changes in contract details.
+      e. Verify that daily consent is required after changes.
+
+   - **Expected Result:**
+      a. The GNA/GNA-RE contract is created successfully.
+      b. Consent is provided successfully.
+      c. Daily consent is not required unless there are changes.
+      d. Changes in contract details are made successfully.
+      e. Daily consent is required after changes.
+
+5. **Test Case: Consent Status API Communication with WBES**
+
+   - **Objective:**
+      - To verify that the Consent Status API functions correctly for communication with WBES.
+
+   - **Steps:**
+      a. Expose the Consent Status API to WBES.
+      b. Trigger the API with both Accepted and Rejected consent statuses.
+      c. Verify that contracts with consent status are successfully shared with WBES.
+
+   - **Expected Result:**
+      a. The Consent Status API is exposed successfully.
+      b. The API is triggered with both Accepted and Rejected statuses.
+      c. Contracts with consent statuses are successfully shared with WBES.
+
+6. **Test Case: Contracts Creation and Tagging for POS**
+
+   - **Objective:**
+      - To verify that contracts are created for all POS whose details are agreed upon and accepted by the user, and fetched contracts are appropriately tagged.
+
+   - **Steps:**
+      a. Create contracts for POS with agreed and accepted details.
+      b. Verify that contracts are created successfully.
+      c. Fetch the contracts.
+      d. Verify that fetched contracts are appropriately tagged as new or revised.
+
+   - **Expected Result:**
+      a. Contracts are created successfully.
+      b. Created contracts are visible.
+      c. Contracts are fetched successfully.
+      d. Fetched contracts are appropriately tagged as new or revised.
+
+7. **Test Case: RLDC Users View and Modification of Consent Status**
+
+   - **Objective:**
+      - To ensure that RLDC users can view the list of approved and no consent contracts day-wise and modify the status of consent.
+
+   - **Steps:**
+      a. Log in to the RLDC user account.
+      b. Navigate to the list of contracts for D+2 by default.
+      c. Verify that the list includes approved and no consent contracts.
+      d. Optionally, change the date range for viewing contracts.
+      e. Modify the status of consent (YES/NO) for a specific contract.
+      f. Verify that the modification is successful.
+
+   - **Expected Result:**
+      a. RLDC user is successfully logged in.
+      b. The list of contracts for D+2 is accessible.
+      c. The list includes approved and no consent contracts.
+      d. Contracts for the specified date range are visible.
+      e. The status of consent is modified successfully.
+      f. The modification is reflected in the system.
+
+8. **Test Case: Sharing Details to WBES After Consent Status Change**
+
+   - **Objective:**
+      - To verify that details are shared to WBES using the POST API after a change in the consent status.
+
+   - **Steps:**
+      a. Change the consent status (YES/NO) for a contract.
+      b. Verify that the change is reflected in the system.
+      c. Trigger the POST API for sharing details with WBES.
+      d. Verify that the details are successfully shared.
+
+   - **Expected Result:**
+      a. Consent status is changed successfully.
+      b. The change is reflected in the system.
+      c. POST API is triggered successfully.
+      d. Details are shared with WBES without errors.
+
+9. **Test Case: Contract Fetching API Manual Run**
+
+   - **Objective:**
+      - To verify that the Contract Fetching API runs manually to fetch revised contracts from WBES.
+
+   - **Steps:**
+      a. Manually run the Contract Fetching API.
+      b. Verify that the API runs without errors.
+      c. Check for any revised contracts.
+      d. Verify that revised contracts are successfully fetched and processed.
+
+   - **Expected Result:**
+      a. The Contract Fetching API is manually triggered.
+      b. The API runs without errors.
+      c. Revised contracts are checked.
+      d. Revised contracts are successfully fetched and processed.

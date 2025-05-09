@@ -1,0 +1,109 @@
+6 Forecasting
+6.1 KSEBL requires daily, block—wise demand forecast for forecast horizons of five minutes to
+month ahead,and one year to five years ahead. Forecasts shall be updated continually to
+support scheduling and dispatching of generation on a 24/7 basis. To achieve the highest accuracy levels, models shall be tailored to account for the unique characteristics of each load,
+and also weather data from multiple sources shall be employed appropriately. The model
+shall be got approved by the KSEBL to ensure that all the parameters are taken care of be -
+fore designing the logic, which are specific for KSEBL, like deterministic Thermal, Hydro and
+Inflow forecast, pattern based RE, and daily weather forecast.
+Based on our needs, the Software shall be capable to provide forecasts for the entire State
+and for subregions (upto 4 subregions) as desired by KSEBL, when the past data for 5
+years is furnished for training. System shall be capable of training withRegional load details
+at 1min interval upto 25 regions, for improving accuracy. The software shall be capable to
+capture and accommodate multiple data inputs like, internal embedded Solar generation
+data, effect of Renewable and EV (Electric Vehicle),and geospatial data. KSEBL will provide
+regional load details, geospatial data for embedded renewable generation, at I minute
+intervals.
+### Test Cases for Forecasting Module
+
+#### Test Case 1: Daily Block-Wise Demand Forecast Accuracy
+- **Objective:** Verify that the system provides accurate daily block-wise demand forecasts.
+- **Preconditions:** Historical data for the past 5 years is available.
+- **Steps:**
+  1. Input historical data for the past 5 years.
+  2. Initiate the daily block-wise demand forecast.
+  3. Compare the forecasted values with actual demand values.
+- **Expected Result:** The forecasted demand should closely match the actual demand values.
+
+#### Test Case 2: Forecast for Different Horizons
+- **Objective:** Ensure the system can generate forecasts for various time horizons (5 minutes, month ahead, 1 year to 5 years).
+- **Preconditions:** Historical data for the past 5 years is available.
+- **Steps:**
+  1. Input historical data for the past 5 years.
+  2. Generate forecasts for the following time horizons:
+     - 5 minutes
+     - 1 month ahead
+     - 1 year to 5 years ahead
+  3. Verify the forecasts are generated without errors.
+- **Expected Result:** Forecasts for all specified horizons are generated successfully.
+
+#### Test Case 3: Continuous Forecast Update
+- **Objective:** Verify that the system updates forecasts continually to support 24/7 scheduling and dispatching.
+- **Preconditions:** The system is running continuously with access to real-time data.
+- **Steps:**
+  1. Monitor the forecast update process over 24 hours.
+  2. Check if the forecasts are updated at regular intervals.
+- **Expected Result:** Forecasts are updated continually without any interruptions.
+
+#### Test Case 4: Tailoring Models for Unique Load Characteristics
+- **Objective:** Ensure the models account for unique characteristics of each load.
+- **Preconditions:** Data for different load characteristics is available.
+- **Steps:**
+  1. Input data with varying load characteristics.
+  2. Generate demand forecasts.
+  3. Verify if the forecasts accurately reflect the unique load characteristics.
+- **Expected Result:** Forecasts should account for and accurately reflect the unique characteristics of each load.
+
+#### Test Case 5: Incorporation of Weather Data from Multiple Sources
+- **Objective:** Verify the system uses weather data from multiple sources appropriately.
+- **Preconditions:** Access to weather data from multiple sources.
+- **Steps:**
+  1. Integrate weather data from multiple sources into the system.
+  2. Generate demand forecasts.
+  3. Verify if the weather data from all sources is used in the forecasting process.
+- **Expected Result:** The system should use weather data from multiple sources to improve forecast accuracy.
+
+#### Test Case 6: Model Approval by KSEBL
+- **Objective:** Ensure the forecasting model gets approved by KSEBL.
+- **Preconditions:** Forecasting model designed and ready for approval.
+- **Steps:**
+  1. Submit the forecasting model to KSEBL for approval.
+  2. Ensure all KSEBL-specific parameters are included (e.g., deterministic thermal, hydro, and inflow forecasts, pattern-based RE, daily weather forecast).
+  3. Obtain approval from KSEBL.
+- **Expected Result:** The model gets approved by KSEBL, confirming all parameters are taken care of.
+
+#### Test Case 7: Forecasting for State and Subregions
+- **Objective:** Verify the system provides forecasts for the entire state and up to 4 subregions.
+- **Preconditions:** Historical data for the state and subregions is available.
+- **Steps:**
+  1. Input historical data for the state and up to 4 subregions.
+  2. Generate demand forecasts for the state and subregions.
+  3. Verify the forecasts for accuracy and completeness.
+- **Expected Result:** The system provides accurate and complete forecasts for the state and specified subregions.
+
+#### Test Case 8: Training with Regional Load Details at 1-Minute Intervals
+- **Objective:** Ensure the system can train with regional load details at 1-minute intervals for up to 25 regions.
+- **Preconditions:** Regional load details at 1-minute intervals for up to 25 regions are available.
+- **Steps:**
+  1. Input regional load details at 1-minute intervals.
+  2. Initiate the training process.
+  3. Verify the training process completes successfully and improves forecast accuracy.
+- **Expected Result:** The system successfully trains with regional load details, enhancing forecast accuracy.
+
+#### Test Case 9: Multiple Data Inputs Integration
+- **Objective:** Verify the system accommodates multiple data inputs (e.g., internal embedded solar generation, renewable effects, EV effects, geospatial data).
+- **Preconditions:** Multiple data inputs are available.
+- **Steps:**
+  1. Integrate multiple data inputs into the system.
+  2. Generate demand forecasts.
+  3. Verify the forecasts reflect the impact of the integrated data inputs.
+- **Expected Result:** The system accurately incorporates multiple data inputs in the forecasting process.
+
+#### Test Case 10: Real-Time Data Handling
+- **Objective:** Ensure the system handles real-time data updates (e.g., regional load details, geospatial data) accurately.
+- **Preconditions:** Real-time data streams are available.
+- **Steps:**
+  1. Connect the system to real-time data streams.
+  2. Monitor the system's ability to handle and incorporate real-time data updates.
+  3. Verify the accuracy of forecasts with real-time data integration.
+- **Expected Result:** The system accurately incorporates real-time data updates into the forecasting process.

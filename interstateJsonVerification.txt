@@ -1,0 +1,9 @@
+mp,mh,gj......
+sr,nr.
+192.1.186.126
+////
+//
+applicableLosses": "POC,STU,DISCOM,POC_OTHER,STU_OTHER"
+applicableLosses": "POC_OTHER,STU_OTHER"
+applicableLosses": "POC_OTHER"
+applicableLosses": "STU_OTHER"

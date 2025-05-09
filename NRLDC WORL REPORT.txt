@@ -1,0 +1,70 @@
+1)NR>STOA Client issue- scenario's created to debug the issue.
+ 2)NR>Test Registration >link,path/flow area ,loss registration, Storage managaement via API  
+ 3)POS utilility >Power Exchange ID and Noc capacity is common for all the exchanges feature Tested.
+ 4)Bug reports has been prepared :
+ https://reconnectenergy.atlassian.net/browse/RT-2082,
+ https://reconnectenergy.atlassian.net/browse/RT-2080,
+ https://reconnectenergy.atlassian.net/browse/RT-2083, 
+ https://reconnectenergy.atlassian.net/browse/RT-2084, 
+ https://reconnectenergy.atlassian.net/browse/RT-2086,
+ https://reconnectenergy.atlassian.net/browse/RT-2084,
+ https://reconnectenergy.atlassian.net/browse/RT-2086, 
+ 
+ https://reconnectenergy.atlassian.net/browse/RT-2088,
+ https://reconnectenergy.atlassian.net/browse/RT-2093, 
+ https://reconnectenergy.atlassian.net/browse/RT-2089, 
+ https://reconnectenergy.atlassian.net/browse/RT-2106.
+ https://reconnectenergy.atlassian.net/browse/RT-2090,
+ https://reconnectenergy.atlassian.net/browse/RT-2123,
+ https://reconnectenergy.atlassian.net/browse/RT-2124, 
+ https://reconnectenergy.atlassian.net/browse/RT-2091, 
+ https://reconnectenergy.atlassian.net/browse/RT-2092, 
+ https://reconnectenergy.atlassian.net/browse/RT-2093, 
+ https://reconnectenergy.atlassian.net/browse/RT-2094, 
+ https://reconnectenergy.atlassian.net/browse/RT-2095, 
+ https://reconnectenergy.atlassian.net/browse/RT-2096, 
+ https://reconnectenergy.atlassian.net/browse/RT-2097, 
+ https://reconnectenergy.atlassian.net/browse/RT-2098, 
+ https://reconnectenergy.atlassian.net/browse/RT-2099, 
+ https://reconnectenergy.atlassian.net/browse/RT-2105, 
+ https://reconnectenergy.atlassian.net/browse/RT-2129, 
+ https://reconnectenergy.atlassian.net/browse/RT-2130, 
+https://reconnectenergy.atlassian.net/browse/RT-2131,
+////////////////////////////////////////////
+
+
+NR>Re-testing bug -fixes.
+NR>GNA API testing .
+HVPNL>Client comments Checking fixed points.
+///
+https://reconnectenergy.atlassian.net/browse/RT-2089
+https://reconnectenergy.atlassian.net/browse/RT-2093
+https://reconnectenergy.atlassian.net/browse/RT-2094
+https://reconnectenergy.atlassian.net/browse/RT-2095
+https://reconnectenergy.atlassian.net/browse/RT-2096
+https://reconnectenergy.atlassian.net/browse/RT-2089
+https://reconnectenergy.atlassian.net/browse/RT-2097
+https://reconnectenergy.atlassian.net/browse/RT-2105
+https://reconnectenergy.atlassian.net/browse/RT-2106
+https://reconnectenergy.atlassian.net/browse/RT-2124
+https://reconnectenergy.atlassian.net/browse/RT-2127
+https://reconnectenergy.atlassian.net/browse/RT-2126
+http://localhost/remc/sch_nr/index.php/registerController/save_upload_px
+///
+NR>Localhost
+1)GNA contract not able to create.
+2)Bundle_RE API is not provided.
+3)PX contracts not coming in the schedule genration.
+
+//
+https://reconnectenergy.atlassian.net/browse/RT-2130,
+https://reconnectenergy.atlassian.net/browse/RT-2131,
+https://reconnectenergy.atlassian.net/browse/RT-2129,
+https://reconnectenergy.atlassian.net/browse/RT-2084,
+https://reconnectenergy.atlassian.net/browse/RT-2086
+https://reconnectenergy.atlassian.net/browse/RT-2088.
+
+
+https://reconnectenergy.atlassian.net/browse/RT-2132
+https://reconnectenergy.atlassian.net/browse/RT-2133
+https://reconnectenergy.atlassian.net/browse/RT-2134

@@ -1,0 +1,52 @@
+https://reconnectenergy.atlassian.net/browse/SAM-1
+https://reconnectenergy.atlassian.net/browse/SAM-2-Development
+https://reconnectenergy.atlassian.net/browse/SAM-3-Development
+https://reconnectenergy.atlassian.net/browse/SAM-5-Development
+https://reconnectenergy.atlassian.net/browse/SAM-6-reopen
+https://reconnectenergy.atlassian.net/browse/SAM-8-OPEN
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+https://reconnectenergy.atlassian.net/browse/SAM-17-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-18-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-19-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-21-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-24-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-28-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-31-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-30-testing.
+https://reconnectenergy.atlassian.net/browse/SAM-23--(pending in registration).
+
+
+
+/////minor ui bugs///
+https://reconnectenergy.atlassian.net/browse/SAM-25-open.
+https://reconnectenergy.atlassian.net/browse/SAM-14-reopen
+https://reconnectenergy.atlassian.net/browse/SAM-13-reopen.
+https://reconnectenergy.atlassian.net/browse/SAM-11-reopen.
+https://reconnectenergy.atlassian.net/browse/SAM-10.reopen.
+https://reconnectenergy.atlassian.net/browse/SAM-9-reopen.
+
+https://reconnectenergy.atlassian.net/browse/SAM-15-open
+https://reconnectenergy.atlassian.net/browse/SAM-22-open.
+https://reconnectenergy.atlassian.net/browse/SAM-29-open.
+
+
+
+/////////////
+https://reconnectenergy.atlassian.net/browse/SAM-26-(need to change /closed by adding comment).
+https://reconnectenergy.atlassian.net/browse/SAM-27-(need to change /closed by adding comment).
+https://reconnectenergy.atlassian.net/browse/SAM-35-progress///(need closed if there is no any defect persist.)
+
+https://reconnectenergy.atlassian.net/browse/SAM-32-done

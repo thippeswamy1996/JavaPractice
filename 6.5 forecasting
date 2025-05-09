@@ -1,0 +1,20 @@
+6.5 The work shall include solutions for the following requirements of KSEBL.
+Accurate forecasting of demand using historical data with consideration of weather and
+other techno-economic parameters shall be carried out as detailed below: -
+1. Analyze the demand and supply gap based on demand forecasts and contracted availability
+on intraday, day ahead, week/month ahead basis and evaluate options for sale &purchase
+of surplus/deficit power.
+2. Evaluate the power to be procured through power exchanges, other contracts, and banking
+arrangements. Calculate the Average power purchase price and set the targets for buy/
+sale of power.
+3. Suggest the day ahead schedule based on Demand Forecast and availability of power keeping in view the frequency & Market trend.
+4. Suggest allocation of contracts for purchase/sale of power and drawal schedules
+5. Contractor shall be responsible for obtaining all necessary software, hardware, services and
+weather data or any other input required for accurate forecasting including recurring costs
+if any during project life period.
+6. Forecast shall be provided for average 15-minute time block, also programmable to 5-
+minute time block. Till the training data is available, 5-minute historical data shall be
+taken by intrapolation.
+7. All the hardware, licensed software, weather data or any other input required for accurate
+forecasting for the purpose of this assignment shall be the responsibility of the Contractor
+and the same shall be considered by the Contractor while quoting the bid price.

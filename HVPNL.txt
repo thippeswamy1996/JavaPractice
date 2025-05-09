@@ -1,0 +1,231 @@
+1)Go through the MDM,Abt-scheduleing,MIS,DF,settelement system,payment accounting,mobile application SRS documentation,
+2)Written FAT Test book for Registration>Substation registration module,
+3)Tested the Registration>Substation registration module,
+4)Bugs are added in the bug sheet,
+5)Written test book for the, 
+6)Update>Substation,
+7)Log>Substation registarion page,
+8)Log>Substation Update page,
+9)Written test book for the Registration >Feeder registration page, 
+10)Update>Update Feeder page,
+11)Log>Registration >Feeder registration page,
+2)Log>Update >Feeder Update page,
+13)Written test book for the Registration >DCU registration page,
+14)Update>Update DCU page, 
+15)Log>Registration >DCU registration page,
+16)Log>Update>DCU Update page,
+17)Written Test book for all the registration module,
+18)Written test case Registation>Substation registration,
+19)Executing Registration>Substation registration test cases,
+20)Executed MDM FAT test book,
+21)Created Task and sub task for the registration,Update,Logs,and user management modules
+22)Bugs are created for respective modules ,
+23)Assigned created bugs for respective persons in the jira, 
+24)Writen test case for delete data functionality for all the update module, 
+25)HVPNL_MDM_ re-tested bug fixes for registration>Substation registration module,
+26)HVPNL-MDM>Written Test case for the Registration> Substation-dcu mapping module, 
+27)HVPNL-MDM>Written Test scenarios for the Registration>Validation mapping module,
+28)HVPNL-MDM>Written Test scenarios for the Registration>Loss computation mapping module,
+29)HVPNL-MDM>Written Test scenarios for the Fictitious Registration module,
+30)HVPNL-MDM>Written Test scenarios for the Utility -substation Registration module,
+31)HVPNL-MDM>Written Test case for the Registration>validation mapping module,
+32)Written>HVPNL-"MDM" Registration fictitious test cases 2)Written>HVPNL-"MDM" Update>Substation test cases 3)Written>HVPNL-"MDM" Update>Division test cases 4)Written>HVPNL-"MDM update >feeder test cases 5)Written>HVPNL-"MDM update >DCU test cases
+33)Written >HVPNL_"MDM" update >SIM test case 
+34)Prepared Requirement tracebility matrix for MDM>SRS(Software requirement specification,
+35)Written>HVPNL_"MDM" update>Meter test case 
+36)Written>HVPNL" MDM" update>Utility test case 
+37)Re-testing is done for registration>Substation registration and the found bugs are added into the respective jira id comments .
+38)HVPNL-MDM-Registration>Substation registration confirmation testing is done
+39)HVPNL-MDM- Resolved the Reviewed Test case comments added by reviewer 
+40)Written Test book settelement system>Dashboard,
+41)Written Test book settelement system>Generate statement,
+42)Written Test book settelement system>Scrutiny,
+43)Written Test book settelement system>Reports,
+44)HVPNL_Settlement system>Smoke testing is done for Dashboard,
+45)HVPNL_Settlement system>Smoke testing is done for Generate statement module,
+46)HVPNL_settlement system mapping the Tender doc srs points ,
+47)HVPNL-MDM- re-tested Bug fixes https://reconnectenergy.atlassian.net/browse/SAM-19 
+https://reconnectenergy.atlassian.net/browse/SAM-20 
+https://reconnectenergy.atlassian.net/browse/SAM-21 
+48)Bug report has been created for the found bugs during the MDM testing
+49)HVPNL_MDM Mapping tender doc points with implemention 
+50)"HVPNL-MDM Smoke testing , component testing ,Functional testing and usablity is done and the bugs reported in the jira id SAM -28 
+51)Update Loss computational mapping page,
+52)"HVPNL-MDM Smoke testing , component testing ,Functional testing and usablity testing is done and the bugs reported in the jira id SAM -31 
+53)Update Validation mapping page,
+54)MDM-retested-bug fixes,
+51)HVPNL-SS>Smoke testing is done for Generate reactive statement,
+52)HVPML-MDM UAT test cases executed 
+53)System integration testing is done in the Abt-scheduleing ,
+54)System integration testing is done in the HVPNL_MDM ,
+55)System integration testing is done in theHVPNL-MDP,
+56)System integration testing is done in the HVPNL-Energy accounting ,
+http://13.235.72.170/mdp/index.php/C_login(MDP)
+http://13.235.72.170/mdm-masterdata/index.php/C_login (MDM),
+http://18.222.140.241/INT/HRABT/ (ABT),
+http://3.21.193.9/HVPN/EA ,
+57)HVPNL-MDM- Bug fixes re-tested,
+58)HVPNL-MDM>Regression testing is done,
+59)HVPNL-MDM-The Bug report has been prepared,
+60)HVPNL-MDM Login page test cases written ,
+61)HVPNL-MDM Login page tested and bugs have been reported 
+https://reconnectenergy.atlassian.net/browse/SAM-95,
+62) https://reconnectenergy.atlassian.net/browse/SAM-96
+https://reconnectenergy.atlassian.net/browse/SAM-97
+https://reconnectenergy.atlassian.net/browse/SAM-98 
+https://reconnectenergy.atlassian.net/browse/SAM-99 
+https://reconnectenergy.atlassian.net/browse/SAM-101 
+https://reconnectenergy.atlassian.net/browse/SAM-103 
+63)HVPNL_MDM Re-tested Bug fixes,
+https://reconnectenergy.atlassian.net/browse/SAM-82(closed),
+https://reconnectenergy.atlassian.net/browse/SAM-84(Reopned),
+https://reconnectenergy.atlassian.net/browse/SAM-86(Closed),
+https://reconnectenergy.atlassian.net/browse/SAM-89(Closed),
+https://reconnectenergy.atlassian.net/browse/SAM-106(new),
+https://reconnectenergy.atlassian.net/browse/SAM-107(new),
+https://reconnectenergy.atlassian.net/browse/SAM-108(new),
+https://reconnectenergy.atlassian.net/browse/SAM-109(new),
+64)HVPNL_MDM-Bug fixes re-tested,
+65)HVPNL-MDM>Bug report has been prepared,
+66)HVPNL_MDM>Regression testing is done after bug fixes,
+67)HVPNL_SS>Tested Generation acc statements,
+68)HVPNL_SS>Tested  scutiny  statements,
+69)MDM-Bug fixes re-tested,
+https://reconnectenergy.atlassian.net/browse/SAM-106,
+https://reconnectenergy.atlassian.net/browse/SAM-108,
+https://reconnectenergy.atlassian.net/browse/SAM-109,
+https://reconnectenergy.atlassian.net/browse/SAM-84,
+https://reconnectenergy.atlassian.net/browse/SAM-8,
+https://reconnectenergy.atlassian.net/browse/SAM-107,
+https://reconnectenergy.atlassian.net/browse/SAM-113,
+https://reconnectenergy.atlassian.net/browse/SAM-123,
+https://reconnectenergy.atlassian.net/browse/SAM-111,
+https://reconnectenergy.atlassian.net/browse/SAM-112,
+https://reconnectenergy.atlassian.net/browse/SAM-113,
+https://reconnectenergy.atlassian.net/browse/SAM-114,
+70)Following Bug id's Bug reported,
+https://reconnectenergy.atlassian.net/browse/SAM-129,
+https://reconnectenergy.atlassian.net/browse/SAM-125,
+https://reconnectenergy.atlassian.net/browse/SAM-127,
+https://reconnectenergy.atlassian.net/browse/SAM-122,
+https://reconnectenergy.atlassian.net/browse/SAM-121,
+https://reconnectenergy.atlassian.net/browse/SAM-95,
+https://reconnectenergy.atlassian.net/browse/SAM-96, 
+https://reconnectenergy.atlassian.net/browse/SAM-97,
+https://reconnectenergy.atlassian.net/browse/SAM-98,
+https://reconnectenergy.atlassian.net/browse/SAM-99,
+https://reconnectenergy.atlassian.net/browse/SAM-101,
+https://reconnectenergy.atlassian.net/browse/SAM-103,
+71)reopned https://reconnectenergy.atlassian.net/browse/SAM-110
+72)MDM Test book test cases executed,
+73)Reported following bugs
+https://reconnectenergy.atlassian.net/browse/SAM-28,
+https://reconnectenergy.atlassian.net/browse/SAM-131,
+https://reconnectenergy.atlassian.net/browse/SAM-132,
+https://reconnectenergy.atlassian.net/browse/SAM-115,
+https://reconnectenergy.atlassian.net/browse/SAM-133,
+74)MDM Bug fixes -Re-tested,
+75)HVPNL>Written performance test case,
+76)HVPNL>Written security test cases,
+77)SS>Bug fixes re-tested ,
+78)SS>testing reported the following bugs
+https://reconnectenergy.atlassian.net/browse/SA-217,
+https://reconnectenergy.atlassian.net/browse/SA-218,
+79)Written System integration test case,
+80)HVPNL >SS>Bug fixes re-tested,
+81)HVPNL>SS>system interation test case written ,
+82)HVPNL>MDM>Regression testing is conducted,
+83)HVPNL-MDM Bug fixes re-tested,
+84)Updated MDM test book https://reconnectenergy.atlassian.net/browse/SAM-110,
+85)MDM>cross browser testing is done for compatibility test,
+86)SS>cross browser testing is done for compatibility test, 
+87)SS>Bug fixes re-tested https://reconnectenergy.atlassian.net/browse/SA-220,
+88)SS>Bug bixes re-tested,
+89)MDM>new feature Test data is created ,
+90)Tested substation registration,activation,rejection,suspenssion,delete functionality,
+91)MDM>Bug report has been prepared ,
+https://reconnectenergy.atlassian.net/browse/SAM-154, 
+https://reconnectenergy.atlassian.net/browse/SAM-155,
+https://reconnectenergy.atlassian.net/browse/SAM-156,
+https://reconnectenergy.atlassian.net/browse/SAM-157,
+https://reconnectenergy.atlassian.net/browse/SAM-159,
+https://reconnectenergy.atlassian.net/browse/SAM-164,
+https://reconnectenergy.atlassian.net/browse/SAM-165, 
+92)PA>Tested FAT test cases,
+93)HVPNAL>PA Bug report has been prepared,
+https://reconnectenergy.atlassian.net/browse/SA-325 ,
+https://reconnectenergy.atlassian.net/browse/SA-326 ,
+https://reconnectenergy.atlassian.net/browse/SA-327, 
+https://reconnectenergy.atlassian.net/browse/SA-328, 
+https://reconnectenergy.atlassian.net/browse/SA-329,
+https://reconnectenergy.atlassian.net/browse/SA-330,
+https://reconnectenergy.atlassian.net/browse/SA-331,
+https://reconnectenergy.atlassian.net/browse/SA-332,
+https://reconnectenergy.atlassian.net/browse/SA-333, 
+https://reconnectenergy.atlassian.net/browse/SA-334,
+https://reconnectenergy.atlassian.net/browse/SA-337,
+https://reconnectenergy.atlassian.net/browse/SA-338,
+https://reconnectenergy.atlassian.net/browse/SA-339, 
+https://reconnectenergy.atlassian.net/browse/SA-340,
+https://reconnectenergy.atlassian.net/browse/SA-341, 
+https://reconnectenergy.atlassian.net/browse/SA-342, 
+https://reconnectenergy.atlassian.net/browse/SA-344, 
+94)HVPNL_MDM>Update page functionality tested.
+https://reconnectenergy.atlassian.net/browse/SAM-166
+https://reconnectenergy.atlassian.net/browse/SAM-170 
+https://reconnectenergy.atlassian.net/browse/SAM-171
+95)Re-tested Bug fixes for all the registration pages 
+https://reconnectenergy.atlassian.net/browse/SAM-133
+https://reconnectenergy.atlassian.net/browse/SAM-77 
+https://reconnectenergy.atlassian.net/browse/SAM-134
+https://reconnectenergy.atlassian.net/browse/SAM-131
+https://reconnectenergy.atlassian.net/browse/SAM-121 
+96)Follwoing bug's has been reported 
+https://reconnectenergy.atlassian.net/browse/SAM-184 
+https://reconnectenergy.atlassian.net/browse/SAM-185 
+https://reconnectenergy.atlassian.net/browse/SAM-187 
+https://reconnectenergy.atlassian.net/browse/SAM-189
+https://reconnectenergy.atlassian.net/browse/SAM-190
+https://reconnectenergy.atlassian.net/browse/SAM-191 
+https://reconnectenergy.atlassian.net/browse/SAM-192
+https://reconnectenergy.atlassian.net/browse/SAM-194
+https://reconnectenergy.atlassian.net/browse/SAM-195
+https://reconnectenergy.atlassian.net/browse/SAM-196 
+https://reconnectenergy.atlassian.net/browse/SAM-198 
+https://reconnectenergy.atlassian.net/browse/SAM-199 
+https://reconnectenergy.atlassian.net/browse/SAM-197
+https://reconnectenergy.atlassian.net/browse/SAM-201
+97)Re-tested,
+https://reconnectenergy.atlassian.net/browse/SAM-198
+https://reconnectenergy.atlassian.net/browse/SAM-133 
+98)Tested FAT Test cases,
+https://reconnectenergy.atlassian.net/browse/SAM-155,
+https://reconnectenergy.atlassian.net/browse/SAM-183,
+https://reconnectenergy.atlassian.net/browse/SAM-133,
+99)HVPNL-MDM IN Production server tested registration /updation/ data_Audit log functionalities, 
+100)HVPNL>MDM Tested UAT cases in the production server,
+101)HVPNL>Mobile application tested and bug's reported ,
+102)HVPNL>MIS>UAT test cases executed,
+103)HVPNL>MDM <Bug fixes re-tested, 
+104)HVPNL>HVPNL>MIS UAT test cases executing,
+105)HVPNL>HVPNL>MDM Bug fixes -re-tested  UAT test cases executing, 
+106)HVPNL>MDM <Regression testing done, 
+107)"HVPNL>Reported Bugs,  
+https://reconnectenergy.atlassian.net/browse/SAM-215,
+https://reconnectenergy.atlassian.net/browse/SAM-218, 
+https://reconnectenergy.atlassian.net/browse/SAM-219, 
+https://reconnectenergy.atlassian.net/browse/SAM-222, 
+https://reconnectenergy.atlassian.net/browse/SAM-224, 
+https://reconnectenergy.atlassian.net/browse/SAM-226,
+107)HVPNL>MDM bug fixes re-tested,
+108)HVPNL>MDMRegression testing is done,
+109)HVPNL>Master data management (MDM) SAT procedure demonstrated to the client ,
+110)HVPNL>HRABT Scheduling tool SAT procedure demonstrated to the client,  
+111)HVPNL>Master data processing(MDP) tool SAT procedure demonstrated to the client ,
+112)HVPNL>Demand Forecasting(DF) tool SAT procedure demonstrated to the client ,  
+113)HVPNL>Transmission outage(TO) tool SAT procedure demonstrated to the client ,  
+114)Prepared scheduled  data to to generate bills,
+114)HVPNL>MIS Report tool SAT procedure demonstrated to the client , 
+115)HVPNL>Website  tool SAT procedure demonstrated to the client ,
+116)HVPNL>Mobile application tool SAT procedure demonstrated to the client,
+117)HVPNL>Data migration and the integration   SAT procedure demonstrated to the client ,   

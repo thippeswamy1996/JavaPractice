@@ -1,0 +1,26 @@
+1)Analyzed the MH  phase-2 requirement
+2)Written test scenarios for MH phase 2 change request (Modification in schedule submission internal user and logic for schedule file uploading).
+3)Written test cases for internal schedule submission by web and by template.
+4)Executed test case for Modification in schedule submission internal user.
+5)Held a meeting with SLDC client regarding MH_Phase 2 feasibility study.
+6)Executed schedule submission by web and by template internal build test cases.
+7)Written and Executed GTAM_PXI,GTAM_IEX, GTAM_HPX test cases.
+8)Designed test cases for separate  inter and intra contracts by using Boundary value analysis technique.
+9)WA 15 minute configuration functionality tested 
+10)RTM functionality tested 
+11)Smoke testing,component testing,component integration testing, system testing,end- to,end testing,and database testing is conducted  to ensure the software works as per requirements.
+12)In Jira all bug  reports were added.
+13)Executed MH_FAT Test book test cases for Phase 2 change request functionalities.
+14)Analysis of MH_New JSON changes document and designing high-level requirement components.
+15)Created Upstream and downstreams, scheduling entities, and Points of schedule.
+16)Tested dynamic contract creation functionalities.
+17)Re-testing bug fixes for dynamic contract creation
+18)Exploratory testing for Phase 2 change functionalities.
+19)End-to-end system testing following the implementation of new functionalities.
+20)Prepared workflow summary for new change request MSLDC.
+21)Written test cases new feature changes related to inter-contract functionality on the registration>contract submission page.
+22)Tested new feature changes related to inter-contract functionality on the registration>contract submission page.
+23)Provided knowledge transfer to Jayashree on the POS util module and contract creation module.
+24)All the necessary actions to access software quality are taken to ensure the smooth working of the software as expected .
+
+

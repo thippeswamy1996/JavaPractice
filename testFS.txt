@@ -1,0 +1,11 @@
+Load scheding module if user updated value  
+in a same  time period the data getting inserted but 
+in the success toaster it is showing as load shedding updated.
+ 1)http://13.235.72.170/kseb_price_fc/index.php/C_Hydro/Reservoirs
+ label the station field  name as Hydro station in the Register Reservoirs page.
+ 
+ 
+ note:
+ 1)Sahil Sharma-Seller-01 is extra merit order 
+ is present.
+ 

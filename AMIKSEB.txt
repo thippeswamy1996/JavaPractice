@@ -1,0 +1,3 @@
+KSEB>AMI Router substation mapping test cases written and reviewd
+KSEB>AMI Modem SIM page mapping test cases written and reviewd.
+KSEB>AMI Router-Meter mapping page test cases written and reviewd.

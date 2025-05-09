@@ -1,0 +1,2 @@
+1)RE_Tested bug fixes in SR build 
+2)TGNA api contract creation functionality tested in sr,nr,wr build

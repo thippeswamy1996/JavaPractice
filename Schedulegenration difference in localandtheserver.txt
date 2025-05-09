@@ -1,0 +1,22 @@
+1)DA If we submit 6 to 14 hors avc what values should be display.
+2)DA AVC if not entered warning message is coming,
+////
+Need to check DA submission after 22:45.(11:45).(Even and Odd block).
+PSM API required modification.
+FAT book case 6 j(PSM API required modification.)
+FAT Book case 8-c.( AVC restriction for DA submission it is happening but
+ if i tried to submit schedule without entering it is giving warning message.) 
+To Test the automatic schedule submission of the PX/TGNA contract after the contract cretion.
+Test case 12-c TGNA manual fetching option to be provided.
+
+
+To verify the inter contract required the 
+interstate transfter JSON link for inclusion of the GNA/TGNA
+
+///
+need to check DA with data (by sibmitting the schedule in the 
+afternoon and 
+genrting schedule tommarrow morning and 
+by submiting scheudle in between the 6 to 12 ).Need to check with AVC yes or NO validaton.
+
+

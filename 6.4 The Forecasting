@@ -1,0 +1,17 @@
+6.4 Some of the points required to be considered while forecasting by Forecasting Service
+Providers are as under.
+1) Historical data
+2) Weather data
+3) Seasonal effects
+4) Festival effects
+5) Natural disasters
+6) System outages/ contingency
+7) Geographical Locations
+8) Peak – Off peak Hours
+111
+Tender Document SAMAST KERALA
+9) Any special events such as important sports events, election, lockdown, bandh/
+harthals/ agitation etc.
+10) Software shall learn continuously using AMR data to improve accuracy of the system.
+The software shall provide user interface for inputting abnormal incidents like scheduled
+and unscheduled interruptions and major events as above that affect the total demand.

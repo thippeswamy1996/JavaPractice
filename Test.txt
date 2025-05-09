@@ -1,0 +1,26 @@
+Steps written:
+
+FICTITIOUS TABLE : 
+
+SELECT FICTITIOUS_ID FROM `RSM_FICTITIOUS_METER_REGISTRATION` WHERE DELETE_STATUS=0
+Find active Fictitious meter id
+
+SELECT * FROM `RSM_FICTITIOUS_METER_FORMULA` WHERE FICTITIOUS_ID IN (SELECT FICTITIOUS_ID FROM `RSM_FICTITIOUS_METER_REGISTRATION` WHERE DELETE_STATUS=0 ) AND DELETE_STATUS=0
+From fictitious will get meter ID’s 
+
+SELECT * FROM 01_00_63_01_00_FF_PROCESSED WHERE 00_00_01_00_00_FF >= '2024-01-20 00:00:00' AND 00_00_01_00_00_FF < '2024-01-21 00:00:00' AND DELETE_STATUS=0 AND METER_ID IN (SELECT METER_ID FROM `RSM_FICTITIOUS_METER_FORMULA` WHERE DELETE_STATUS=0 AND `FICTITIOUS_ID` IN (SELECT FICTITIOUS_ID FROM `RSM_FICTITIOUS_METER_REGISTRATION` WHERE DELETE_STATUS=0) ) GROUP BY METER_ID,00_00_01_00_00_FF
+
+In formula table search Active Fictitious id and respective active meter id consider.
+
+formula table to Proceed 
+
+In formula table based on column operation multiply value in proceed table’s same column and note down for each meter id
+
+For eg : for 1 Fictitious Id 3 Meter id’s are available then check 3 operations and note down separately.
+
+Once we calculated then sum of all meter id’s.
+
+Meter Registration to  Fictitious table.
+RSM_FICTITIOUS_METER_REGISTRATION table search fictitious id 
+Check the column operations (eg. MAX, MIN, AVG, SUM) Which is mentioned take and compare with all calculated meter id for same fictitious id.
+Output check in Fictitious table

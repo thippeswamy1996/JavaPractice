@@ -1,0 +1,91 @@
+### Test Case for API Contract Creation Module
+
+#### Test Case: GNA-based Contracts
+
+**Objective:**
+To verify the correct creation and synchronization of GNA-based Contracts in the REMC tool through the API provided by WBES.
+
+**Preconditions:**
+1. API endpoints for GNA-based Contracts are provided by WBES.
+2. Necessary configurations for the REMC tool are set up to receive and process API data.
+
+**Steps:**
+
+1. **Contract Creation via API:**
+   a. Trigger the GNA-based Contracts creation process in the REMC tool.
+   b. Verify that the tool correctly fetches the GNA-based Contracts data from WBES API.
+   c. Ensure that all necessary contract details, including Green Tag, GNA type, bundled power, and other relevant information, are correctly extracted.
+   d. Check that the contracts are correctly registered in the REMC tool.
+
+2. **Viewing Contract Details:**
+   a. Navigate to the Contract Details section in the REMC tool.
+   b. Verify that the tool displays all GNA-based Contracts fetched or registered through the API.
+   c. Check that the displayed details match the information received from WBES.
+   d. Confirm that the tool distinguishes between contracts with changes and those without changes.
+
+3. **API Fields Verification:**
+   a. For each GNA-based Contract, validate the correctness of the following fields received from WBES:
+      - Approval No
+      - Approval type
+      - Loss Exemption
+      - Seller Region
+      - Seller Name
+      - Buyer Region
+      - Buyer Name
+      - Transaction Date
+      - Bundled transaction
+      - Green Tag
+      - Route
+      - Contract ID
+      - Time Block
+      - Contract Quantum
+
+4. **Contract Update Handling:**
+   a. Trigger a second API request for GNA-based Contracts with modifications.
+   b. Verify that the REMC tool correctly updates existing contracts based on the changes received.
+   c. Ensure that only contracts with modifications are updated, and unchanged contracts remain unaffected.
+
+**Expected Results:**
+1. GNA-based Contracts are successfully fetched or registered in the REMC tool through the API.
+2. The tool displays all GNA-based Contracts with accurate details.
+3. Each field in the API data is correctly processed and displayed in the tool.
+4. Contract updates are accurately handled, and only contracts with changes are updated.
+
+---
+
+#### Test Case: Bundled RE Contracts
+
+**Objective:**
+To verify the correct creation and synchronization of Bundled RE Contracts in the REMC tool through the API provided by WBES.
+
+**Preconditions:**
+1. API endpoints for Bundled RE Contracts are provided by WBES.
+2. Necessary configurations for the REMC tool are set up to receive and process API data.
+
+**Steps:**
+
+1. **Contract Creation via API:**
+   a. Trigger the Bundled RE Contracts creation process in the REMC tool.
+   b. Verify that the tool correctly fetches the Bundled RE Contracts data from WBES API.
+   c. Ensure that all necessary contract details, including Contract Tag, are correctly extracted.
+   d. Check that the contracts are correctly registered in the REMC tool.
+
+2. **Viewing Contract Details:**
+   a. Navigate to the Contract Details section in the REMC tool.
+   b. Verify that the tool displays all Bundled RE Contracts fetched or registered through the API.
+   c. Confirm that the displayed details match the information received from WBES.
+
+3. **API Fields Verification:**
+   a. For each Bundled RE Contract, validate the correctness of the following fields received from WBES:
+      - Contract Tag
+
+4. **Contract Update Handling:**
+   a. Trigger a second API request for Bundled RE Contracts with modifications.
+   b. Verify that the REMC tool correctly updates existing Bundled RE Contracts based on the changes received.
+   c. Ensure that only contracts with modifications are updated, and unchanged contracts remain unaffected.
+
+**Expected Results:**
+1. Bundled RE Contracts are successfully fetched or registered in the REMC tool through the API.
+2. The tool displays all Bundled RE Contracts with accurate details.
+3. Each field in the API data is correctly processed and displayed in the tool.
+4. Contract updates are accurately handled, and only contracts with changes are updated.

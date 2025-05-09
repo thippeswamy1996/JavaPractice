@@ -1,0 +1,58 @@
+In Git, files go through different stages before they are committed to the repository. Understanding the difference between staged and unstaged files is crucial for managing your code effectively. Here's an explanation of these terms and what actions a user can take:
+
+### Unstaged Files
+
+Unstaged files are files that have been modified in your working directory but have not yet been added to the staging area. These changes are not yet ready to be committed. They include:
+- New files that have been created.
+- Existing files that have been modified or deleted.
+
+**What you can do with unstaged files:**
+1. **Stage the files:** Use the `git add` command to add changes to the staging area. This prepares them for the next commit.
+    ```sh
+    git add <file-name>
+    git add .
+    ```
+2. **Discard changes:** If you want to discard the changes made to the unstaged files, you can use:
+    ```sh
+    git checkout -- <file-name>
+    git restore <file-name>  # In newer versions of Git
+    ```
+
+### Staged Files
+
+Staged files are files that have been added to the staging area. These changes are now ready to be committed. Staged files include changes you explicitly added using the `git add` command.
+
+**What you can do with staged files:**
+1. **Commit the changes:** Use the `git commit` command to commit the staged changes to the repository.
+    ```sh
+    git commit -m "Commit message"
+    ```
+2. **Unstage the files:** If you decide not to commit some of the staged changes, you can unstage them using:
+    ```sh
+    git reset HEAD <file-name>
+    ```
+3. **Modify staged files:** If you need to make additional changes to a file that is already staged, you can edit the file and then add it to the staging area again.
+
+### Workflow Example
+
+1. **Modify files in your working directory:**
+    ```sh
+    echo "Some changes" >> file.txt
+    ```
+
+2. **Check the status of your working directory:**
+    ```sh
+    git status
+    ```
+
+3. **Stage the changes:**
+    ```sh
+    git add file.txt
+    ```
+
+4. **Commit the staged changes:**
+    ```sh
+    git commit -m "Added some changes to file.txt"
+    ```
+
+By understanding and managing staged and unstaged files, you can control what changes are included in each commit, leading to a more organized and logical commit history.

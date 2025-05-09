@@ -1,0 +1,67 @@
+### Test Case for Grid Management Module
+
+#### Test Case: Grid Management Data Fetching and Curtailment/Restoration in REMC
+
+1. **Objective:**
+   - To verify that the Grid Management Module functions correctly by fetching data from WBES via API, and allows curtailment and restoration in the REMC tool.
+
+2. **Steps:**
+   a. Log in to the REMC system as an authorized user.
+   b. Navigate to the Grid Management Module.
+   c. Verify that the latest grid management data is fetched from WBES via API.
+   d. Check if there is provision for raising curtailment and restoration in the REMC tool.
+   e. Raise curtailment for a specific contract and verify that it is reflected in the system.
+   f. Raise restoration for the same contract and verify that it is reflected in the system.
+
+3. **Expected Result:**
+   a. The user is successfully logged in.
+   b. The Grid Management Module is accessible.
+   c. The latest grid management data is successfully fetched from WBES via API.
+   d. Provision for raising curtailment and restoration exists.
+   e. Curtailment is successfully raised for the specified contract.
+   f. Restoration is successfully raised for the same contract.
+
+4. **Test Case: Schedule Generation Using Latest Grid Management Data**
+
+   - **Objective:**
+      - To ensure that the schedule generation considers the latest grid management data from both WBES and REMC.
+
+   - **Steps:**
+      a. Initiate the schedule generation process for a specific contract.
+      b. Verify that the system considers the latest grid management data from both WBES and REMC.
+      c. Confirm that the generated schedule aligns with the grid management requirements.
+
+   - **Expected Result:**
+      a. The schedule generation process is initiated successfully.
+      b. The system considers the latest grid management data from both WBES and REMC.
+      c. The generated schedule aligns with the grid management requirements.
+
+5. **Test Case: Timestamp Validation for Schedule Generation**
+
+   - **Objective:**
+      - To verify that the system uses the last updated timestamp for schedule generation.
+
+   - **Steps:**
+      a. Update the grid management data in both WBES and REMC.
+      b. Initiate the schedule generation process for a specific contract.
+      c. Verify that the system uses the latest timestamp for schedule generation.
+
+   - **Expected Result:**
+      a. Grid management data is successfully updated in both WBES and REMC.
+      b. The schedule generation process is initiated successfully.
+      c. The system uses the latest timestamp for schedule generation.
+
+6. **Test Case: Integration with Open Access Regulation and Guidelines**
+
+   - **Objective:**
+      - To ensure that the Grid Management Module integrates seamlessly with Open Access regulation and guidelines.
+
+   - **Steps:**
+      a. Access the Open Access regulation and guidelines section.
+      b. Verify that the grid management module aligns with the specified regulations.
+      c. Confirm that schedule management is in accordance with Open Access guidelines.
+
+   - **Expected Result:**
+      a. The Open Access regulation and guidelines section is accessible.
+      b. The grid management module aligns with the specified regulations.
+      c. Schedule management is in accordance with Open Access guidelines.

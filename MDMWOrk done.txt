@@ -1,0 +1,37 @@
+raj
+
+https://reconnectenergy.atlassian.net/browse/SAM-6-REOPNED
+https://reconnectenergy.atlassian.net/browse/SAM-8-TODO
+
+https://reconnectenergy.atlassian.net/browse/SAM-13-REOPNED
+https://reconnectenergy.atlassian.net/browse/SAM-17-TODO
+https://reconnectenergy.atlassian.net/browse/SAM-18-TODO
+https://reconnectenergy.atlassian.net/browse/SAM-28-DEVELOPMENT
+https://reconnectenergy.atlassian.net/browse/SAM-29-TODO
+https://reconnectenergy.atlassian.net/browse/SAM-30-TODO
+https://reconnectenergy.atlassian.net/browse/SAM-31-DEVELOPMENT
+/////
+Nischita
+https://reconnectenergy.atlassian.net/browse/SAM-34
+////////////
+Analysed MDM SRS Documnetation:
+Written Test scenarios for all the modules:By applying all the nessasary test case design techniques
+Written Test book for MDM software:
+Created Jira project for defect report management:
+Created requirement tracebility matrix for the  MDM Software requirement specification:
+Smoke testing:
+Component testing:
+Component-integration testing:
+System testing:
+Acceptence testing:
+Exploratory testing:
+Regression testing is in all the specified test levels :
+End to end testing:
+Usablity bug id's:
+
+https://reconnectenergy.atlassian.net/browse/SAM-77(assigned to atul ).
+////////////////////////////////////////////////////////
+(https://reconnectenergy.atlassian.net/browse/SAM-15 main id all related testing id u can get from this main id ).
+
+ 
+     
